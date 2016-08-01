@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>\\VBOXSVR\Google_Drive\Programming\WTP-Sepang\Water treatment plant\WTP_Pro_23_6_2016.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2016-07-28T17:36:49</ChangeDate>
+		<ChangeDate>2016-08-01T11:14:09</ChangeDate>
 		<Library>
 			<Name>STANDARD.LIB</Name>
 			<Path>C:\TWINCAT\PLC\LIB\STANDARD.LIB</Path>
@@ -1063,6 +1063,62 @@
 					<Name>Settle</Name>
 					<CodeIndex>90</CodeIndex>
 				</ActionInfo>
+			</FbInfo>
+		</DataType>
+		<DataType>
+			<Name Decoration="1008501C" Crc32="0774590851" LastChange="2016-08-01T11:07:26">fb_timer_on_off</Name>
+			<BitSize>336</BitSize>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ON</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>0</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">OFF</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>120</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>_ImpVar_64_1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>240</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>_ImpVar_64_7</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>248</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">IN</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>256</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">ptOn</Name>
+				<Type>TIME</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>264</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">ptOff</Name>
+				<Type>TIME</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>296</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Q</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>328</BitOffs>
+			</SubItem>
+			<FbInfo>
+				<CodeIndex>92</CodeIndex>
+				<InitIndex>93</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
@@ -2597,7 +2653,7 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="1047A574" Crc32="0720672047" LastChange="2016-07-28T17:36:49">REUSE_WATER_SYSTEM</Name>
+			<Name Decoration="1047A574" Crc32="0720672047" LastChange="2016-08-01T11:14:09">REUSE_WATER_SYSTEM</Name>
 			<PrgInfo>
 				<CodeIndex>77</CodeIndex>
 				<ActionInfo>
@@ -2820,7 +2876,7 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="10083009" Crc32="1734579842" LastChange="2016-07-28T17:36:49">SBR_REACTOR_1</Name>
+			<Name Decoration="1019E6DD" Crc32="3992196292" LastChange="2016-08-01T11:14:09">SBR_REACTOR_1</Name>
 			<PrgInfo>
 				<CodeIndex>86</CodeIndex>
 				<Symbol>
@@ -2839,6 +2895,39 @@
 					<Name>SBR_REACTOR_1.OP_SW_R1</Name>
 				</Symbol>
 				<Symbol>
+					<Name>SBR_REACTOR_1.LSL510A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.bDeSlug</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.P201A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.bBlower</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.TimerStartBlower1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.TimerStartBlower2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.TimerStartBlower3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.tBlower1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.tBlower2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.tBlower3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.B201A</Name>
+				</Symbol>
+				<Symbol>
 					<Name>SBR_REACTOR_1.FILLING_TOKEN</Name>
 				</Symbol>
 				<Symbol>
@@ -2846,6 +2935,24 @@
 				</Symbol>
 				<Symbol>
 					<Name>SBR_REACTOR_1.DECANTING_TOKEN</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1._ImpVar_70_36</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1._ImpVar_70_31</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1._ImpVar_70_38</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1._ImpVar_70_65</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1._ImpVar_70_66</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1._ImpVar_70_67</Name>
 				</Symbol>
 			</PrgInfo>
 		</Program>
@@ -3909,24 +4016,101 @@
 			<BitSize>1</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.FILLING_TOKEN</Name>
-			<Type>INT</Type>
+			<Name TaskPrio="1">SBR_REACTOR_1.LSL510A</Name>
+			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1616</IOffset>
-			<BitSize>16</BitSize>
+			<IOffset>8976</IOffset>
+			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.AERATION_TOKEN</Name>
+			<Name TaskPrio="1">SBR_REACTOR_1.bDeSlug</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>1616</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.P201A</Name>
+			<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>15198</IOffset>
+			<BitSize>3144</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.bBlower</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>1617</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>SBR_REACTOR_1.TimerStartBlower1</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9008</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.TimerStartBlower2</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9023</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.TimerStartBlower3</Name>
+			<Type Decoration="10060D24">TON</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9038</IOffset>
+			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.tBlower1</Name>
+			<Type Decoration="1008501C">fb_timer_on_off</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9053</IOffset>
+			<BitSize>336</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.tBlower2</Name>
+			<Type Decoration="1008501C">fb_timer_on_off</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>15591</IOffset>
+			<BitSize>336</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.tBlower3</Name>
+			<Type Decoration="1008501C">fb_timer_on_off</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>15633</IOffset>
+			<BitSize>336</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SBR_REACTOR_1.B201A</Name>
+			<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>15675</IOffset>
+			<BitSize>3144</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.FILLING_TOKEN</Name>
 			<Type>INT</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>4446</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.DECANTING_TOKEN</Name>
+			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.AERATION_TOKEN</Name>
 			<Type>INT</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>4448</IOffset>
+			<BitSize>16</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.DECANTING_TOKEN</Name>
+			<Type>INT</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9095</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
@@ -12599,6 +12783,479 @@
 			<Parent>
 				<Name SubItem="M200_MixerABC">SBR_REACTOR_1.REACTOR4</Name>
 				<Type Decoration="102E31D9">SBRReactor</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.LSL510A.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SBR_REACTOR_1.LSL510A</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.dutyRemoteMode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyRemoteMode">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.dutyOverload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyOverload">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.dutyIncomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyIncomplete">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.dutyStart</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyStart">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.standbyRemoteMode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyRemoteMode">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.standbyOverload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyOverload">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.standbyIncomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyIncomplete">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.standbyStart</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyStart">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.thirdRemoteMode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdRemoteMode">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.thirdOverload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdOverload">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.thirdStart</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdStart">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.thirdIncomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdIncomplete">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.standbyClose</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyClose">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.dutyClose</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyClose">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.thirdClose</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdClose">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.dutyAdditionalStat</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyAdditionalStat">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.remoteAdditionalStat</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="remoteAdditionalStat">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.P201A.thirdAdditionalStat</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdAdditionalStat">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Output" TaskPrio="1">SBR_REACTOR_1.P201A.dutyCommand</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyCommand">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Output" TaskPrio="1">SBR_REACTOR_1.P201A.standbyCommand</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyCommand">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Output" TaskPrio="1">SBR_REACTOR_1.P201A.thirdCommand</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdCommand">SBR_REACTOR_1.P201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.dutyRemoteMode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyRemoteMode">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.dutyOverload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyOverload">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.dutyIncomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyIncomplete">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.dutyStart</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyStart">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.standbyRemoteMode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyRemoteMode">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.standbyOverload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyOverload">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.standbyIncomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyIncomplete">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.standbyStart</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyStart">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.thirdRemoteMode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdRemoteMode">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.thirdOverload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdOverload">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.thirdStart</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdStart">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.thirdIncomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdIncomplete">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.standbyClose</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyClose">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.dutyClose</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyClose">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.thirdClose</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdClose">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.dutyAdditionalStat</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyAdditionalStat">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.remoteAdditionalStat</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="remoteAdditionalStat">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.B201A.thirdAdditionalStat</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdAdditionalStat">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Output" TaskPrio="1">SBR_REACTOR_1.B201A.dutyCommand</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="dutyCommand">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Output" TaskPrio="1">SBR_REACTOR_1.B201A.standbyCommand</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="standbyCommand">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Output" TaskPrio="1">SBR_REACTOR_1.B201A.thirdCommand</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="thirdCommand">SBR_REACTOR_1.B201A</Name>
+				<Type Decoration="106B35C7">fb_equipment_with_linking</Type>
 			</Parent>
 		</VarConfig>
 	</VarConfigs>
