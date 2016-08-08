@@ -2,9 +2,9 @@
 <!--This file is created by the TCatPlcCtrl automatically. Manually changes will be overwritten!-->
 <PlcProjectInfo xmlns:p="http://www.beckhoff.com/2002/01/TcPlcProjectDesc">
 	<ProjectInfo>
-		<Path>\\VBOXSVR\Google_Drive\Programming\WTP-Sepang\Water treatment plant\WTP_Pro_23_6_2016.pro</Path>
+		<Path>C:\Users\Pastelblush\Projects\WTP_Sepang\WTP_Pro_23_6_2016.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2016-08-02T13:10:11</ChangeDate>
+		<ChangeDate>2016-08-08T11:52:04</ChangeDate>
 		<Library>
 			<Name>STANDARD.LIB</Name>
 			<Path>C:\TWINCAT\PLC\LIB\STANDARD.LIB</Path>
@@ -16,7 +16,7 @@
 			<NetId>0.0.0.0.0.0</NetId>
 			<Port>801</Port>
 			<TargetName>
-				<![CDATA[Target: Local (10.255.2.15.1.1), Run Time: 1]]>
+				<![CDATA[Target: Local (192.168.255.3.1.1), Run Time: 1]]>
 			</TargetName>
 		</AdsInfo>
 	</RoutingInfo>
@@ -723,15 +723,15 @@
 				<BitOffs>3144</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>55</CodeIndex>
-				<InitIndex>56</InitIndex>
+				<CodeIndex>57</CodeIndex>
+				<InitIndex>58</InitIndex>
 				<ActionInfo>
 					<Name>stopAction</Name>
-					<CodeIndex>57</CodeIndex>
+					<CodeIndex>59</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>test</Name>
-					<CodeIndex>58</CodeIndex>
+					<CodeIndex>60</CodeIndex>
 				</ActionInfo>
 			</FbInfo>
 		</DataType>
@@ -787,8 +787,8 @@
 				<BitOffs>328</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>65</CodeIndex>
-				<InitIndex>66</InitIndex>
+				<CodeIndex>61</CodeIndex>
+				<InitIndex>62</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
@@ -819,12 +819,12 @@
 				<BitOffs>248</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>60</CodeIndex>
-				<InitIndex>61</InitIndex>
+				<CodeIndex>64</CodeIndex>
+				<InitIndex>65</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="103251E8" Crc32="0673003838" LastChange="2016-08-02T13:10:11">SBRReactor</Name>
+			<Name Decoration="103251E8" Crc32="0673003838" LastChange="2016-08-02T13:10:23">SBRReactor</Name>
 			<BitSize>4576</BitSize>
 			<SubItem>
 				<Name Persistent="1">step</Name>
@@ -1127,27 +1127,27 @@
 				<BitOffs>4544</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>88</CodeIndex>
-				<InitIndex>89</InitIndex>
+				<CodeIndex>80</CodeIndex>
+				<InitIndex>81</InitIndex>
 				<ActionInfo>
 					<Name>Aeration</Name>
-					<CodeIndex>90</CodeIndex>
+					<CodeIndex>82</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>Decanting</Name>
-					<CodeIndex>91</CodeIndex>
+					<CodeIndex>83</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>FBs</Name>
-					<CodeIndex>92</CodeIndex>
+					<CodeIndex>84</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>filling</Name>
-					<CodeIndex>93</CodeIndex>
+					<CodeIndex>85</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>Settle</Name>
-					<CodeIndex>94</CodeIndex>
+					<CodeIndex>86</CodeIndex>
 				</ActionInfo>
 			</FbInfo>
 		</DataType>
@@ -1703,7 +1703,7 @@
 		<Function>
 			<Name Decoration="10010388" Crc32="3386154581" LastChange="2016-08-02T13:10:10">Activate</Name>
 			<FunInfo>
-				<CodeIndex>78</CodeIndex>
+				<CodeIndex>49</CodeIndex>
 				<ReturnValue>
 					<Name>Activate</Name>
 					<Type>BOOL</Type>
@@ -1714,7 +1714,7 @@
 		<Function>
 			<Name Decoration="10010411" Crc32="1422320927" LastChange="2016-08-02T13:10:10">Deactivate</Name>
 			<FunInfo>
-				<CodeIndex>80</CodeIndex>
+				<CodeIndex>52</CodeIndex>
 				<ReturnValue>
 					<Name>Deactivate</Name>
 					<Type>BOOL</Type>
@@ -1725,7 +1725,7 @@
 		<Function>
 			<Name Decoration="10040B31" Crc32="2953252593" LastChange="2016-08-02T13:10:10">RangeBlock</Name>
 			<FunInfo>
-				<CodeIndex>79</CodeIndex>
+				<CodeIndex>71</CodeIndex>
 				<ReturnValue>
 					<Name>RangeBlock</Name>
 					<Type>BOOL</Type>
@@ -1962,7 +1962,7 @@
 		<Program>
 			<Name Decoration="101FFF68" Crc32="3635032389" LastChange="2016-08-02T13:10:10">GRIT_REMOVAL_OPERATION</Name>
 			<PrgInfo>
-				<CodeIndex>59</CodeIndex>
+				<CodeIndex>63</CodeIndex>
 				<Symbol>
 					<Name>GRIT_REMOVAL_OPERATION.bGritAirBlower</Name>
 				</Symbol>
@@ -2061,10 +2061,10 @@
 		<Program>
 			<Name Decoration="1028F5F5" Crc32="0359608062" LastChange="2016-08-02T13:10:10">INLET_SCREENING_OPERATION_1</Name>
 			<PrgInfo>
-				<CodeIndex>62</CodeIndex>
+				<CodeIndex>66</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>75</CodeIndex>
+					<CodeIndex>67</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>INLET_SCREENING_OPERATION_1.bTest</Name>
@@ -2191,10 +2191,10 @@
 		<Program>
 			<Name Decoration="1028F5E0" Crc32="0711773744" LastChange="2016-08-02T13:10:10">INLET_SCREENING_OPERATION_2</Name>
 			<PrgInfo>
-				<CodeIndex>63</CodeIndex>
+				<CodeIndex>68</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>76</CodeIndex>
+					<CodeIndex>69</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>INLET_SCREENING_OPERATION_2.bTest</Name>
@@ -2321,16 +2321,16 @@
 		<Program>
 			<Name Decoration="10000000" Crc32="3867508353" LastChange="2016-08-02T13:10:10">MAIN</Name>
 			<PrgInfo>
-				<CodeIndex>64</CodeIndex>
+				<CodeIndex>70</CodeIndex>
 			</PrgInfo>
 		</Program>
 		<Program>
 			<Name Decoration="1047BC38" Crc32="0297652552" LastChange="2016-08-02T13:10:11">REUSE_WATER_SYSTEM</Name>
 			<PrgInfo>
-				<CodeIndex>77</CodeIndex>
+				<CodeIndex>72</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>82</CodeIndex>
+					<CodeIndex>73</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>REUSE_WATER_SYSTEM.bVacumPrimingOperation</Name>
@@ -2548,12 +2548,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="101D7BED" Crc32="4027232564" LastChange="2016-08-02T13:10:11">SBR_REACTOR_1</Name>
+			<Name Decoration="102086EA" Crc32="1077385148" LastChange="2016-08-08T09:41:37">SBR_REACTOR_1</Name>
 			<PrgInfo>
-				<CodeIndex>67</CodeIndex>
+				<CodeIndex>74</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>68</CodeIndex>
+					<CodeIndex>75</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_REACTOR_1.REACTOR1</Name>
@@ -2569,6 +2569,15 @@
 				</Symbol>
 				<Symbol>
 					<Name>SBR_REACTOR_1.OP_SW_R1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.OP_SW_R2</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.OP_SW_R3</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SBR_REACTOR_1.OP_SW_R4</Name>
 				</Symbol>
 				<Symbol>
 					<Name>SBR_REACTOR_1.LSL510A</Name>
@@ -2647,10 +2656,10 @@
 		<Program>
 			<Name Decoration="10180999" Crc32="1070544162" LastChange="2016-08-02T13:10:10">SBR_TRANSFER_1</Name>
 			<PrgInfo>
-				<CodeIndex>69</CodeIndex>
+				<CodeIndex>76</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>70</CodeIndex>
+					<CodeIndex>77</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_TRANSFER_1.LSL103A</Name>
@@ -2729,10 +2738,10 @@
 		<Program>
 			<Name Decoration="101C1584" Crc32="3670779749" LastChange="2016-08-02T13:10:10">SBR_TRANSFER_2</Name>
 			<PrgInfo>
-				<CodeIndex>86</CodeIndex>
+				<CodeIndex>78</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>87</CodeIndex>
+					<CodeIndex>79</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_TRANSFER_2.LSL103B</Name>
@@ -2823,16 +2832,169 @@
 		<Program>
 			<Name Decoration="10000000" Crc32="0796817654" LastChange="2016-08-02T13:10:10">SLUDGE_TANK</Name>
 			<PrgInfo>
-				<CodeIndex>95</CodeIndex>
+				<CodeIndex>87</CodeIndex>
+			</PrgInfo>
+		</Program>
+		<Program>
+			<Name Decoration="103154F9" Crc32="2719101872" LastChange="2016-08-08T11:52:04">SLUDGE_THICKENING</Name>
+			<PrgInfo>
+				<CodeIndex>88</CodeIndex>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludgeTankLevel_LSL501A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludgeTankLevel_LSH501A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludePitSensor_LSH600</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PressureSwitch_PSL505A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludgeFeedPump_P501A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.DrumThickener_D503A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackWashWaterPump_P505A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.Blower_P505A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolymerTimerA</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolimerTank_LSLPU501</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolimerTank_LSHPU501</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolimerValveOpen_XVPU501A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolimerValveClose_XVPU501A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.DiagramValvaOpen_XVPU502A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludgeTankLevel_LSL501B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludgeTankLevel_LSH501B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PressureSwitch_PSL505B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.SludgeFeedPump_P501B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.DrumThickener_D503B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackWashWaterPump_P505B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.Blower_P505B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolymerTimerB</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolimerValveOpen_XVPU501B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.PolimerValveClose_XVPU501B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.DiagramValvaOpen_XVPU502B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.bWarning_PolimerLow</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.DiagramValvaOpen_XVPU502</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.FilterateSumpLevel_LSL620</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.FilterateSumpLevel_LSH620</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.FilteratePump_P602A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.FilteratePump_P602B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_7</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_1</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_8</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_19</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_18</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_48</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_24</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_27</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_29</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_36</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_40</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_45</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_54</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_58</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_55</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_61</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_63</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING._ImpVar_30_66</Name>
+				</Symbol>
 			</PrgInfo>
 		</Program>
 		<Program>
 			<Name Decoration="1019007F" Crc32="1404776890" LastChange="2016-08-02T13:10:10">STREAM_INLET_MIXER_1</Name>
 			<PrgInfo>
-				<CodeIndex>81</CodeIndex>
+				<CodeIndex>89</CodeIndex>
 				<ActionInfo>
 					<Name>inputs</Name>
-					<CodeIndex>83</CodeIndex>
+					<CodeIndex>90</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>STREAM_INLET_MIXER_1.LSL101A</Name>
@@ -2914,10 +3076,10 @@
 		<Program>
 			<Name Decoration="1019FFAD" Crc32="3276639585" LastChange="2016-08-02T13:10:10">STREAM_INLET_MIXER_2</Name>
 			<PrgInfo>
-				<CodeIndex>84</CodeIndex>
+				<CodeIndex>91</CodeIndex>
 				<ActionInfo>
 					<Name>inputs</Name>
-					<CodeIndex>85</CodeIndex>
+					<CodeIndex>92</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>STREAM_INLET_MIXER_2.LSL101B</Name>
@@ -3030,532 +3192,532 @@
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.B101A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>7275</IOffset>
+			<IOffset>18</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.bSuctionValveA1</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>411</IOffset>
+			<IOffset>412</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.bSuctionValveA2</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>412</IOffset>
+			<IOffset>413</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.bSuctionValveB1</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>413</IOffset>
+			<IOffset>414</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.bSuctionValveB2</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>414</IOffset>
+			<IOffset>415</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.XV100A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>7669</IOffset>
+			<IOffset>416</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.XV100B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8063</IOffset>
+			<IOffset>810</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.bGritClassifierA</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1201</IOffset>
+			<IOffset>1204</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.bGritClassifierB</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1202</IOffset>
+			<IOffset>1205</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">GRIT_REMOVAL_OPERATION.C103AandB</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8457</IOffset>
+			<IOffset>1206</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bTest</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1613</IOffset>
+			<IOffset>1617</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bTestReault</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1614</IOffset>
+			<IOffset>1618</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_1.LSH105A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10379</IOffset>
+			<IOffset>1619</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_1.LSHH105A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10411</IOffset>
+			<IOffset>1651</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bPenstockDual</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1619</IOffset>
+			<IOffset>1683</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.Timer1</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1620</IOffset>
+			<IOffset>1684</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bWarningStreamLineOverflow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1635</IOffset>
+			<IOffset>1699</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bFineScreen</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1636</IOffset>
+			<IOffset>1700</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.F101A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>14631</IOffset>
+			<IOffset>1701</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.XV101A1</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>15025</IOffset>
+			<IOffset>2095</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.StopTimer</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2423</IOffset>
+			<IOffset>2489</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bScrewConveyor</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2438</IOffset>
+			<IOffset>2504</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bScreenCompactor</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2439</IOffset>
+			<IOffset>2505</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bWaterSprayScreenDuty</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2440</IOffset>
+			<IOffset>2506</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bWaterSprayScreenStandby</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2441</IOffset>
+			<IOffset>2507</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bPenstockDuty</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2442</IOffset>
+			<IOffset>2508</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bPenstockStandby</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2443</IOffset>
+			<IOffset>2509</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.XV101A2</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>15419</IOffset>
+			<IOffset>2510</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.timerCompactor</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2837</IOffset>
+			<IOffset>2904</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bFineScreenDual</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>2852</IOffset>
+			<IOffset>2919</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_1.PS101A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>15813</IOffset>
+			<IOffset>2920</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.bContinuousWaterSpray</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>3246</IOffset>
+			<IOffset>3314</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.C102A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>16207</IOffset>
+			<IOffset>3315</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.C101A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>16601</IOffset>
+			<IOffset>3709</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_1.XV102A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>16995</IOffset>
+			<IOffset>4103</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_2.bTest</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4444</IOffset>
+			<IOffset>4515</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_2.bTestReault</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4445</IOffset>
+			<IOffset>4516</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.LSH105B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10443</IOffset>
+			<IOffset>4517</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.LSHH105B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10475</IOffset>
+			<IOffset>4549</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>INLET_SCREENING_OPERATION_2.bPenstockDual</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4450</IOffset>
+			<IOffset>4581</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.Timer1</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4451</IOffset>
+			<IOffset>4582</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bWarningStreamLineOverflow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4466</IOffset>
+			<IOffset>4597</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bFineScreen</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4467</IOffset>
+			<IOffset>4598</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.F101B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>17389</IOffset>
+			<IOffset>4599</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.XV101B1</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>17783</IOffset>
+			<IOffset>4993</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.StopTimer</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5254</IOffset>
+			<IOffset>5387</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bScrewConveyor</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5269</IOffset>
+			<IOffset>5402</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bScreenCompactor</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5270</IOffset>
+			<IOffset>5403</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bWaterSprayScreenDuty</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5271</IOffset>
+			<IOffset>5404</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bWaterSprayScreenStandby</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5272</IOffset>
+			<IOffset>5405</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bPenstockDuty</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5273</IOffset>
+			<IOffset>5406</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bPenstockStandby</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5274</IOffset>
+			<IOffset>5407</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.XV101B2</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>18177</IOffset>
+			<IOffset>5408</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.timerCompactor</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5668</IOffset>
+			<IOffset>5802</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bFineScreenDual</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>5683</IOffset>
+			<IOffset>5817</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.PS101B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>18571</IOffset>
+			<IOffset>5818</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.bContinuousWaterSpray</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>6077</IOffset>
+			<IOffset>6212</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.C102B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>18965</IOffset>
+			<IOffset>6213</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.C101B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>19359</IOffset>
+			<IOffset>6607</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">INLET_SCREENING_OPERATION_2.XV102B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>19753</IOffset>
+			<IOffset>7001</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bVacumPrimingOperation</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9998</IOffset>
+			<IOffset>7413</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.LSH405</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10507</IOffset>
+			<IOffset>7414</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.LSL308A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10539</IOffset>
+			<IOffset>7446</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.LSH308A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10571</IOffset>
+			<IOffset>7478</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bSolenoidValve</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10001</IOffset>
+			<IOffset>7510</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bVacumPumDuty</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10002</IOffset>
+			<IOffset>7511</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.WaitToFill</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10003</IOffset>
+			<IOffset>7512</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.FSL101</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10603</IOffset>
+			<IOffset>7527</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bWarning_PrimingNoWater</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10020</IOffset>
+			<IOffset>7559</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bTriggerNegative</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10021</IOffset>
+			<IOffset>7560</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bOverrideON</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10029</IOffset>
+			<IOffset>7561</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bOverrideOFF</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10030</IOffset>
+			<IOffset>7562</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bTriggerPositive</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10023</IOffset>
+			<IOffset>7563</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.TOverrideON</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10031</IOffset>
+			<IOffset>7564</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.TOverrideOFF</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10046</IOffset>
+			<IOffset>7579</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bJokeyPump</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10062</IOffset>
+			<IOffset>7594</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -3569,42 +3731,42 @@
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.rWaterPressureSensor</Name>
 			<Type>REAL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10065</IOffset>
+			<IOffset>7595</IOffset>
 			<BitSize>32</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bPumpSequence</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10069</IOffset>
+			<IOffset>7599</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.Lower_3_5_timer</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10070</IOffset>
+			<IOffset>7600</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bLeadPumpAB</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10085</IOffset>
+			<IOffset>7615</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bLeadPumpCD</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10086</IOffset>
+			<IOffset>7616</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.bWarningWaterPressureHigh</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10087</IOffset>
+			<IOffset>7617</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -3618,70 +3780,70 @@
 			<Name>REUSE_WATER_SYSTEM.bJokeyPumpInternalOff</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10089</IOffset>
+			<IOffset>7618</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.P403</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>20147</IOffset>
+			<IOffset>7619</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.P402</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>20541</IOffset>
+			<IOffset>8013</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.P401AB</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>20935</IOffset>
+			<IOffset>8407</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.P401CD</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>21329</IOffset>
+			<IOffset>8801</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.XV102</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>21723</IOffset>
+			<IOffset>9195</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.REACTOR1</Name>
 			<Type Decoration="103251E8">SBRReactor</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>22117</IOffset>
+			<IOffset>9630</IOffset>
 			<BitSize>4576</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.REACTOR2</Name>
 			<Type Decoration="103251E8">SBRReactor</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>22689</IOffset>
+			<IOffset>10202</IOffset>
 			<BitSize>4576</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.REACTOR3</Name>
 			<Type Decoration="103251E8">SBRReactor</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>23261</IOffset>
+			<IOffset>10774</IOffset>
 			<BitSize>4576</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.REACTOR4</Name>
 			<Type Decoration="103251E8">SBRReactor</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>23833</IOffset>
+			<IOffset>11346</IOffset>
 			<BitSize>4576</BitSize>
 		</Symbol>
 		<Symbol>
@@ -3692,493 +3854,514 @@
 			<BitSize>1</BitSize>
 		</Symbol>
 		<Symbol>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.OP_SW_R2</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.OP_SW_R3</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SBR_REACTOR_1.OP_SW_R4</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.LSL510A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8851</IOffset>
+			<IOffset>11922</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.bDeSlug</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1616</IOffset>
+			<IOffset>11954</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.P201A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>24405</IOffset>
+			<IOffset>11955</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.bBlower</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1617</IOffset>
+			<IOffset>12349</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>SBR_REACTOR_1.TimerStartBlower1</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8883</IOffset>
+			<IOffset>12350</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.TimerStartBlower2</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8898</IOffset>
+			<IOffset>12365</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.TimerStartBlower3</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8913</IOffset>
+			<IOffset>12380</IOffset>
 			<BitSize>120</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.tBlower1</Name>
 			<Type Decoration="1008501C">fb_timer_on_off</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8928</IOffset>
+			<IOffset>12395</IOffset>
 			<BitSize>336</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.tBlower2</Name>
 			<Type Decoration="1008501C">fb_timer_on_off</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>8970</IOffset>
+			<IOffset>12437</IOffset>
 			<BitSize>336</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.tBlower3</Name>
 			<Type Decoration="1008501C">fb_timer_on_off</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9012</IOffset>
+			<IOffset>12479</IOffset>
 			<BitSize>336</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.B201A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>24799</IOffset>
+			<IOffset>12521</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.bXV205A</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>1618</IOffset>
+			<IOffset>12915</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.bXV206A</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4446</IOffset>
+			<IOffset>12916</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.bXV207A</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4447</IOffset>
+			<IOffset>12917</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_REACTOR_1.bXV208A</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>4448</IOffset>
+			<IOffset>12918</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.FILLING_TOKEN</Name>
 			<Type>INT</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9054</IOffset>
+			<IOffset>12919</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.AERATION_TOKEN</Name>
 			<Type>INT</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9056</IOffset>
+			<IOffset>12921</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Persistent="1" TaskPrio="1">SBR_REACTOR_1.DECANTING_TOKEN</Name>
 			<Type>INT</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9058</IOffset>
+			<IOffset>12923</IOffset>
 			<BitSize>16</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.LSL103A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9074</IOffset>
+			<IOffset>12940</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.LSS103A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25193</IOffset>
+			<IOffset>12972</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.LSH103A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25225</IOffset>
+			<IOffset>13004</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.LSD103A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25257</IOffset>
+			<IOffset>13036</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.bSBRTransfer</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9106</IOffset>
+			<IOffset>13068</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.bWarningSBRDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9107</IOffset>
+			<IOffset>13069</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.bCriticalSBRDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9108</IOffset>
+			<IOffset>13070</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.bCriticalSBRHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9109</IOffset>
+			<IOffset>13071</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_1.P102A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25289</IOffset>
+			<IOffset>13072</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.LSL103B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25683</IOffset>
+			<IOffset>13481</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.LSS103B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25715</IOffset>
+			<IOffset>13513</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.LSH103B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25747</IOffset>
+			<IOffset>13545</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.LSD103B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25779</IOffset>
+			<IOffset>13577</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bXV205B</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9996</IOffset>
+			<IOffset>13609</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bXV206B</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9997</IOffset>
+			<IOffset>13610</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bXV207B</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9999</IOffset>
+			<IOffset>13611</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bXV208B</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10000</IOffset>
+			<IOffset>13612</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bSBRTransfer</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10018</IOffset>
+			<IOffset>13613</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bWarningSBRDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10019</IOffset>
+			<IOffset>13614</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bCriticalSBRDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25811</IOffset>
+			<IOffset>13615</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.bCriticalSBRHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25812</IOffset>
+			<IOffset>13616</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SBR_TRANSFER_2.P102B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>25813</IOffset>
+			<IOffset>13617</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSL101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12601</IOffset>
+			<IOffset>14382</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSS101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12633</IOffset>
+			<IOffset>14414</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSH101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12665</IOffset>
+			<IOffset>14446</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSD101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12697</IOffset>
+			<IOffset>14478</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSL100A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12729</IOffset>
+			<IOffset>14510</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSHL100A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12761</IOffset>
+			<IOffset>14542</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bEQPump</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12793</IOffset>
+			<IOffset>14574</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bCriticalEQFloatHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12794</IOffset>
+			<IOffset>14575</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bWarningFloatSensorLow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12795</IOffset>
+			<IOffset>14576</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bCriticalFloatSensorDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12796</IOffset>
+			<IOffset>14577</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bEQMixer</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12797</IOffset>
+			<IOffset>14578</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.P101A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>26222</IOffset>
+			<IOffset>14579</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.M101A</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>26616</IOffset>
+			<IOffset>14973</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSL101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13596</IOffset>
+			<IOffset>15379</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSS101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13628</IOffset>
+			<IOffset>15411</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSH101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13660</IOffset>
+			<IOffset>15443</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSD101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13692</IOffset>
+			<IOffset>15475</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSL100B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13724</IOffset>
+			<IOffset>15507</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSHL100B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13756</IOffset>
+			<IOffset>15539</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bEQPump</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13788</IOffset>
+			<IOffset>15571</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bCriticalEQFloatHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13789</IOffset>
+			<IOffset>15572</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bWarningFloatSensorLow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13790</IOffset>
+			<IOffset>15573</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bCriticalFloatSensorDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13791</IOffset>
+			<IOffset>15574</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bEQMixer</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>13792</IOffset>
+			<IOffset>15575</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.P101B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>27010</IOffset>
+			<IOffset>15576</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.M101B</Name>
 			<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>27404</IOffset>
+			<IOffset>15970</IOffset>
 			<BitSize>3152</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>.dummy</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9995</IOffset>
+			<IOffset>16414</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">.LSH620</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>14591</IOffset>
+			<IOffset>16415</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">.GlobalON</Name>
 			<Type>TIME</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>14623</IOffset>
+			<IOffset>16447</IOffset>
 			<BitSize>32</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">.GlobalOFF</Name>
 			<Type>TIME</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>14627</IOffset>
+			<IOffset>16451</IOffset>
 			<BitSize>32</BitSize>
 		</Symbol>
 	</Symbols>
@@ -13296,6 +13479,105 @@
 			<Parent>
 				<Name SubItem="thirdCommand">SBR_TRANSFER_2.P102B</Name>
 				<Type Decoration="106C3A56">fb_equipment_with_linking</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.SludgeTankLevel_LSL501A.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.SludgeTankLevel_LSL501A</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.SludgeTankLevel_LSH501A.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.SludgeTankLevel_LSH501A</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.SludePitSensor_LSH600.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.SludePitSensor_LSH600</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.PolimerTank_LSLPU501.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.PolimerTank_LSLPU501</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.PolimerTank_LSHPU501.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.PolimerTank_LSHPU501</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.SludgeTankLevel_LSL501B.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.SludgeTankLevel_LSL501B</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.SludgeTankLevel_LSH501B.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.SludgeTankLevel_LSH501B</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.FilterateSumpLevel_LSL620.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.FilterateSumpLevel_LSL620</Name>
+				<Type Decoration="10044104">inBlock</Type>
+			</Parent>
+		</VarConfig>
+		<VarConfig>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.FilterateSumpLevel_LSH620.IN</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+			<Parent>
+				<Name SubItem="IN">SLUDGE_THICKENING.FilterateSumpLevel_LSH620</Name>
+				<Type Decoration="10044104">inBlock</Type>
 			</Parent>
 		</VarConfig>
 	</VarConfigs>
