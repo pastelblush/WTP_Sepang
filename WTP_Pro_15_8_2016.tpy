@@ -4,7 +4,7 @@
 	<ProjectInfo>
 		<Path>C:\Users\Pastelblush\Projects\WTP_Sepang\WTP_Pro_15_8_2016.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2016-08-22T13:07:56</ChangeDate>
+		<ChangeDate>2016-08-22T17:15:15</ChangeDate>
 		<Library>
 			<Name>STANDARD.LIB</Name>
 			<Path>C:\TWINCAT\PLC\LIB\STANDARD.LIB</Path>
@@ -62,7 +62,7 @@
 	</DirectoryInfos>
 	<DataTypes>
 		<DataType>
-			<Name Decoration="10081EA8" Crc32="4258089175" LastChange="2016-08-22T12:07:04">Equipment_Dual</Name>
+			<Name Decoration="10081EA8" Crc32="4258089175" LastChange="2016-08-22T16:49:19">Equipment_Dual</Name>
 			<BitSize>112</BitSize>
 			<SubItem>
 				<Name FbParameter="Input">ERROR1</Name>
@@ -309,692 +309,6 @@
 			<FbInfo>
 				<CodeIndex>63</CodeIndex>
 				<InitIndex>64</InitIndex>
-			</FbInfo>
-		</DataType>
-		<DataType>
-			<Name Decoration="106E4A3D" Crc32="2434159847" LastChange="2016-08-22T12:07:04">fb_equipment_with_linking</Name>
-			<BitSize>3168</BitSize>
-			<SubItem>
-				<Name>warningDutyOverload</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>0</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningDutyFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>8</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningDutyNotClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>16</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningDutyClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>24</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningStandbyOverload</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>32</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningStandbyFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>40</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningStandbyNotClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>48</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningStandbyClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>56</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningThirdOverload</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>64</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningThirdFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>72</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningThirdNotClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>80</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>warningThirdClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>88</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>duty</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>96</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>iStopDuty</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>112</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>state</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>128</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>third</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>144</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>iStopThird</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>160</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>iStopStandby</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>176</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>standby</Name>
-				<Type>INT</Type>
-				<BitSize>16</BitSize>
-				<BitOffs>192</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>startDuty</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>208</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>startStandby</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>216</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>stopStandby</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>224</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>stopDuty</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>232</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>dutyHalt</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>240</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>standbyHalt</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>248</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>stopThird</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>256</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>startThird</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>264</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>thirdHalt</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>272</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">dutyTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>280</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">standbyTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>400</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">stopStandbyTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>520</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">stopDutyTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>640</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">FSStopDuty</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>760</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">FSStopStandby</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>880</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">FSBothStop</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1000</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">OnTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1120</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">StandbyOnTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1240</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">thirdTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1360</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">stopThirdTimer</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1480</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">GuardTONDuty</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1600</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">GuardTONStandby</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1720</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">GuardTONThird</Name>
-				<Type Decoration="10060D24">TON</Type>
-				<BitSize>120</BitSize>
-				<BitOffs>1840</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ROnce5</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>1960</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ROnce10</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>1984</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ROnce20</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2008</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SOnceDuty</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2032</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SOnceStandby</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2056</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SOnceFS</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2080</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SOnceThird</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2104</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">DutyStopR</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2128</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">StandbyStopR</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2152</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ThirdStopR</Name>
-				<Type Decoration="1003051C">R_TRIG</Type>
-				<BitSize>24</BitSize>
-				<BitOffs>2176</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>internalDummy</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2200</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>dummyIN</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2208</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>dummyIN2</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2216</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name>dummyIN3</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2224</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">IN</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2232</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">IN2</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2264</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">IN3</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2296</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">timeout</Name>
-				<Type>TIME</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2328</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">dualMode</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2360</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">thirdDevice</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2368</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">priority</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2376</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">timeLimited</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2384</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">maxOnTime</Name>
-				<Type>TIME</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2392</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">maxOnTime2</Name>
-				<Type>TIME</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2424</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">maxOnTime3</Name>
-				<Type>TIME</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2456</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">FSMode</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2488</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">FSTime</Name>
-				<Type>TIME</Type>
-				<Comment>
-					<![CDATA[
-	FSBothTime					: TIME := T#5m;]]>
-				</Comment>
-				<BitSize>32</BitSize>
-				<BitOffs>2496</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">GuardTime</Name>
-				<Type>TIME</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2528</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Input">dutyAdditionalStat</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2560</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Input">remoteAdditionalStat</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2568</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Input">thirdAdditionalStat</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2576</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">A1</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2584</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">A2</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2616</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">A3</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2648</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">B1</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2680</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">B2</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2712</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">B3</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2744</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">C1</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2776</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">C2</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2808</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">C3</Name>
-				<Type Pointer="1">BOOL</Type>
-				<Comment>
-					<![CDATA[
-	Q1							: POINTER TO BOOL;
-	Q2							: POINTER TO BOOL;
-	Q3							: POINTER TO BOOL;]]>
-				</Comment>
-				<BitSize>32</BitSize>
-				<BitOffs>2840</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">G1</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2872</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">G2</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2904</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">G3</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>2936</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">DoubleDuty</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2968</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">WaitMode</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2976</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Output" FbParameter="Output">dutyCommand</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2984</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Output" FbParameter="Output">standbyCommand</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>2992</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Output" FbParameter="Output">thirdCommand</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3000</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">dutyRemoteMode</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3008</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">dutyOverload</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3016</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">dutyIncomplete</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3024</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">dutyStart</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3032</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">standbyRemoteMode</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3040</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">standbyOverload</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3048</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">standbyIncomplete</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3056</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">standbyStart</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3064</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">thirdRemoteMode</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3072</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">thirdOverload</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3080</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">thirdStart</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3088</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">thirdIncomplete</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3096</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">standbyClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3104</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">dutyClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3112</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name Location="Input" FbParameter="Output">thirdClose</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3120</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Output">criticalErrorStartingFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3128</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Output">criticalDutyStopFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3136</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Output">criticalStandbyStopFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3144</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Output">criticalThirdStopFailed</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3152</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Output">criticalErrorStartingFailed_UL</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>3160</BitOffs>
-			</SubItem>
-			<FbInfo>
-				<CodeIndex>75</CodeIndex>
-				<InitIndex>76</InitIndex>
-				<ActionInfo>
-					<Name>stopAction</Name>
-					<CodeIndex>77</CodeIndex>
-				</ActionInfo>
-				<ActionInfo>
-					<Name>test</Name>
-					<CodeIndex>78</CodeIndex>
-				</ActionInfo>
 			</FbInfo>
 		</DataType>
 		<DataType>
@@ -1377,6 +691,86 @@
 					<Name>Settle</Name>
 					<CodeIndex>106</CodeIndex>
 				</ActionInfo>
+			</FbInfo>
+		</DataType>
+		<DataType>
+			<Name Decoration="100C2DFD" Crc32="0761276857" LastChange="2016-08-22T16:49:33">Equipment_Triple</Name>
+			<BitSize>168</BitSize>
+			<SubItem>
+				<Name FbParameter="Input">ERROR1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>0</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">ERROR2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>8</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">ERROR3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>16</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">remote1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>24</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">remote2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>32</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">remote3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>40</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Command1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>48</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Command2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>56</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Command3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>64</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="InOut">IN1</Name>
+				<Type Pointer="1">BOOL</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>72</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="InOut">IN2</Name>
+				<Type Pointer="1">BOOL</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>104</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="InOut">IN3</Name>
+				<Type Pointer="1">BOOL</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>136</BitOffs>
+			</SubItem>
+			<FbInfo>
+				<CodeIndex>117</CodeIndex>
+				<InitIndex>118</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
@@ -6147,7 +5541,7 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="108DA8A6" Crc32="0831952480" LastChange="2016-08-22T13:07:56">SLUDGE_THICKENING</Name>
+			<Name Decoration="10EB68AD" Crc32="2183654223" LastChange="2016-08-22T17:15:15">SLUDGE_THICKENING</Name>
 			<PrgInfo>
 				<CodeIndex>107</CodeIndex>
 				<ActionInfo>
@@ -6209,6 +5603,12 @@
 					<Name>SLUDGE_THICKENING.SolenoidValve_XV505B</Name>
 				</Symbol>
 				<Symbol>
+					<Name>SLUDGE_THICKENING.BlowerValve_XV501A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BlowerValve_XV501B</Name>
+				</Symbol>
+				<Symbol>
 					<Name>SLUDGE_THICKENING.bWarning_PolimerLow</Name>
 				</Symbol>
 				<Symbol>
@@ -6221,13 +5621,19 @@
 					<Name>SLUDGE_THICKENING.DrumThickener_D503</Name>
 				</Symbol>
 				<Symbol>
-					<Name>SLUDGE_THICKENING.BackWashWaterPump_P505</Name>
+					<Name>SLUDGE_THICKENING.BackWashWaterPump</Name>
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.bFloculator_M502A</Name>
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.bFloculator_M502B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.StreamA_Failed</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.StreamB_Failed</Name>
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.DrumThickenerError</Name>
@@ -6243,12 +5649,6 @@
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.PolymerTimer</Name>
-				</Symbol>
-				<Symbol>
-					<Name>SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				</Symbol>
-				<Symbol>
-					<Name>SLUDGE_THICKENING.fbBlower_P505</Name>
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.FilteratePump_P602_A_remote_mode</Name>
@@ -6537,6 +5937,282 @@
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.Floculator_M502_B</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_remote_mode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_overload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_incomplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_status</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_command</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_in</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_overload_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_incomplete_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_status_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_common_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_stop_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_overload_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_incomplete_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_status_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_A_stop_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_remote_mode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_overload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_incomplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_status</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_command</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_in</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_overload_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_incomplete_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_status_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_common_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_stop_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_overload_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_incomplete_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_status_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_B_stop_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_remote_mode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_overload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_incomplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_status</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_command</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_in</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_overload_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_incomplete_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_status_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_common_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_stop_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_overload_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_incomplete_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_status_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501_C_stop_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.AirBlower_B501</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_remote_mode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_overload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_incomplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_status</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_command</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_in</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_overload_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_incomplete_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_status_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_common_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_stop_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_overload_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_incomplete_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_status_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_A_stop_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_remote_mode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_overload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_incomplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_status</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_command</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_in</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_overload_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_incomplete_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_status_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_common_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_stop_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_overload_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_incomplete_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_status_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_B_stop_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_remote_mode</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_overload</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_incomplete</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_status</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_command</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_in</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_overload_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_incomplete_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_status_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_common_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_stop_error</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_overload_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_incomplete_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_status_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505_C_stop_Filter</Name>
+				</Symbol>
+				<Symbol>
+					<Name>SLUDGE_THICKENING.BackwashWaterPump_P505</Name>
 				</Symbol>
 				<Symbol>
 					<Name>SLUDGE_THICKENING._ImpVar_51_7</Name>
@@ -15539,102 +15215,116 @@
 			<BitSize>1</BitSize>
 		</Symbol>
 		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.BlowerValve_XV501A</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.BlowerValve_XV501B</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.bWarning_PolimerLow</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>9035</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.Blower_P505</Name>
-			<Type>BOOL</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>9036</IOffset>
-			<BitSize>8</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.SludgeFeedPump_P501</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9037</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.Blower_P505</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9038</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.BackWashWaterPump_P505</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.SludgeFeedPump_P501</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9039</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.bFloculator_M502A</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9040</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.bFloculator_M502B</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackWashWaterPump</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9041</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickenerError</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.bFloculator_M502A</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9042</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.FluoculatorError</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.bFloculator_M502B</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9043</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashFailed</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.StreamA_Failed</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9044</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.bDolanError</Name>
+			<Name TaskPrio="1">SLUDGE_THICKENING.StreamB_Failed</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
 			<IOffset>9045</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
+			<Name>SLUDGE_THICKENING.DrumThickenerError</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9046</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name>SLUDGE_THICKENING.FluoculatorError</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9047</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashFailed</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9048</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.bDolanError</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9049</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.PolymerTimer</Name>
 			<Type Decoration="10060D24">TON</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9046</IOffset>
+			<IOffset>9050</IOffset>
 			<BitSize>120</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-			<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>9061</IOffset>
-			<BitSize>3168</BitSize>
-		</Symbol>
-		<Symbol>
-			<Name TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505</Name>
-			<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			<IGroup>16448</IGroup>
-			<IOffset>9457</IOffset>
-			<BitSize>3168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_remote_mode</Name>
@@ -15675,70 +15365,70 @@
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9858</IOffset>
+			<IOffset>9070</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9859</IOffset>
+			<IOffset>9071</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9860</IOffset>
+			<IOffset>9072</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9861</IOffset>
+			<IOffset>9073</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9862</IOffset>
+			<IOffset>9074</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9863</IOffset>
+			<IOffset>9075</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9864</IOffset>
+			<IOffset>9076</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9885</IOffset>
+			<IOffset>9097</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9906</IOffset>
+			<IOffset>9118</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9927</IOffset>
+			<IOffset>9139</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -15780,84 +15470,84 @@
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9953</IOffset>
+			<IOffset>9165</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9954</IOffset>
+			<IOffset>9166</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9955</IOffset>
+			<IOffset>9167</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9956</IOffset>
+			<IOffset>9168</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9957</IOffset>
+			<IOffset>9169</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9958</IOffset>
+			<IOffset>9170</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9959</IOffset>
+			<IOffset>9171</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>9980</IOffset>
+			<IOffset>9192</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10001</IOffset>
+			<IOffset>9213</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10022</IOffset>
+			<IOffset>9234</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_A</Name>
 			<Type Decoration="10040F4F">Equipment_Single</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10043</IOffset>
+			<IOffset>9255</IOffset>
 			<BitSize>56</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.FilteratePump_P602_B</Name>
 			<Type Decoration="10040F4F">Equipment_Single</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10050</IOffset>
+			<IOffset>9262</IOffset>
 			<BitSize>56</BitSize>
 		</Symbol>
 		<Symbol>
@@ -15899,70 +15589,70 @@
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10062</IOffset>
+			<IOffset>9274</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10063</IOffset>
+			<IOffset>9275</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10064</IOffset>
+			<IOffset>9276</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10065</IOffset>
+			<IOffset>9277</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10066</IOffset>
+			<IOffset>9278</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10067</IOffset>
+			<IOffset>9279</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10068</IOffset>
+			<IOffset>9280</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10089</IOffset>
+			<IOffset>9301</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10110</IOffset>
+			<IOffset>9322</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10131</IOffset>
+			<IOffset>9343</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16004,84 +15694,84 @@
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10157</IOffset>
+			<IOffset>9369</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10158</IOffset>
+			<IOffset>9370</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10159</IOffset>
+			<IOffset>9371</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10160</IOffset>
+			<IOffset>9372</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10161</IOffset>
+			<IOffset>9373</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10162</IOffset>
+			<IOffset>9374</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10163</IOffset>
+			<IOffset>9375</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10184</IOffset>
+			<IOffset>9396</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10205</IOffset>
+			<IOffset>9417</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10226</IOffset>
+			<IOffset>9438</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_A</Name>
 			<Type Decoration="10040F4F">Equipment_Single</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10247</IOffset>
+			<IOffset>9459</IOffset>
 			<BitSize>56</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.DrumThickener_D503_B</Name>
 			<Type Decoration="10040F4F">Equipment_Single</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10254</IOffset>
+			<IOffset>9466</IOffset>
 			<BitSize>56</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16123,70 +15813,70 @@
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10266</IOffset>
+			<IOffset>9478</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10267</IOffset>
+			<IOffset>9479</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10268</IOffset>
+			<IOffset>9480</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10269</IOffset>
+			<IOffset>9481</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10270</IOffset>
+			<IOffset>9482</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10271</IOffset>
+			<IOffset>9483</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10272</IOffset>
+			<IOffset>9484</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10293</IOffset>
+			<IOffset>9505</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10314</IOffset>
+			<IOffset>9526</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10335</IOffset>
+			<IOffset>9547</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16228,147 +15918,791 @@
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10361</IOffset>
+			<IOffset>9573</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10362</IOffset>
+			<IOffset>9574</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10363</IOffset>
+			<IOffset>9575</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10364</IOffset>
+			<IOffset>9576</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10365</IOffset>
+			<IOffset>9577</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10366</IOffset>
+			<IOffset>9578</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10367</IOffset>
+			<IOffset>9579</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10388</IOffset>
+			<IOffset>9600</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10409</IOffset>
+			<IOffset>9621</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10430</IOffset>
+			<IOffset>9642</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_A</Name>
 			<Type Decoration="10040F4F">Equipment_Single</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10451</IOffset>
+			<IOffset>9663</IOffset>
 			<BitSize>56</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">SLUDGE_THICKENING.Floculator_M502_B</Name>
 			<Type Decoration="10040F4F">Equipment_Single</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10458</IOffset>
+			<IOffset>9670</IOffset>
 			<BitSize>56</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_remote_mode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_overload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_incomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_status</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_command</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_in</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9682</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_overload_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9683</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_incomplete_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9684</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_status_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9685</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_common_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9686</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_stop_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9687</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_overload_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9688</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_incomplete_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9709</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_status_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9730</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_A_stop_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9751</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_remote_mode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_overload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_incomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_status</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_command</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_in</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9777</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_overload_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9778</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_incomplete_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9779</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_status_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9780</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_common_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9781</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_stop_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9782</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_overload_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9783</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_incomplete_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9804</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_status_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9825</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_B_stop_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9846</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_remote_mode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_overload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_incomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_status</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_command</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_in</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9872</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_overload_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9873</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_incomplete_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9874</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_status_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9875</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_common_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9876</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_stop_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9877</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_overload_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9878</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_incomplete_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9899</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_status_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9920</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501_C_stop_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9941</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.AirBlower_B501</Name>
+			<Type Decoration="100C2DFD">Equipment_Triple</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9962</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_remote_mode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_overload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_incomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_status</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_command</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_in</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9988</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_overload_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9989</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_incomplete_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9990</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_status_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9991</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_common_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9992</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_stop_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9993</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_overload_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>9994</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_incomplete_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10015</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_status_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10036</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_A_stop_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10057</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_remote_mode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_overload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_incomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_status</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_command</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_in</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10083</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_overload_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10084</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_incomplete_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10085</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_status_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10086</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_common_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10087</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_stop_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10088</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_overload_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10089</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_incomplete_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10110</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_status_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10131</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_B_stop_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10152</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_remote_mode</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_overload</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_incomplete</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_status</Name>
+			<Type>BOOL</Type>
+			<IGroup>61473</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_command</Name>
+			<Type>BOOL</Type>
+			<IGroup>61489</IGroup>
+			<IOffset VarConfig="Unknown">0</IOffset>
+			<BitSize>1</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_in</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10178</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_overload_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10179</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_incomplete_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10180</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_status_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10181</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_common_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10182</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_stop_error</Name>
+			<Type>BOOL</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10183</IOffset>
+			<BitSize>8</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_overload_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10184</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_incomplete_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10205</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_status_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10226</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505_C_stop_Filter</Name>
+			<Type Decoration="10042507">ErrorFilter</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10247</IOffset>
+			<BitSize>168</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">SLUDGE_THICKENING.BackwashWaterPump_P505</Name>
+			<Type Decoration="100C2DFD">Equipment_Triple</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>10268</IOffset>
+			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSL101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10662</IOffset>
+			<IOffset>10784</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSS101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10694</IOffset>
+			<IOffset>10816</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSH101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10726</IOffset>
+			<IOffset>10848</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSD101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10758</IOffset>
+			<IOffset>10880</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSL100A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10790</IOffset>
+			<IOffset>10912</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSHL100A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10822</IOffset>
+			<IOffset>10944</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bCriticalEQFloatHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10854</IOffset>
+			<IOffset>10976</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bWarningFloatSensorLow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10855</IOffset>
+			<IOffset>10977</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bCriticalFloatSensorDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10856</IOffset>
+			<IOffset>10978</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16410,70 +16744,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10862</IOffset>
+			<IOffset>10984</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10863</IOffset>
+			<IOffset>10985</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10864</IOffset>
+			<IOffset>10986</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10865</IOffset>
+			<IOffset>10987</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10866</IOffset>
+			<IOffset>10988</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10867</IOffset>
+			<IOffset>10989</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10868</IOffset>
+			<IOffset>10990</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10889</IOffset>
+			<IOffset>11011</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10910</IOffset>
+			<IOffset>11032</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10931</IOffset>
+			<IOffset>11053</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16515,77 +16849,77 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10957</IOffset>
+			<IOffset>11079</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10958</IOffset>
+			<IOffset>11080</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10959</IOffset>
+			<IOffset>11081</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10960</IOffset>
+			<IOffset>11082</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10961</IOffset>
+			<IOffset>11083</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10962</IOffset>
+			<IOffset>11084</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10963</IOffset>
+			<IOffset>11085</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10984</IOffset>
+			<IOffset>11106</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11005</IOffset>
+			<IOffset>11127</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11026</IOffset>
+			<IOffset>11148</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_CriticalStartError</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11047</IOffset>
+			<IOffset>11169</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16627,70 +16961,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11053</IOffset>
+			<IOffset>11175</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11054</IOffset>
+			<IOffset>11176</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11055</IOffset>
+			<IOffset>11177</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11056</IOffset>
+			<IOffset>11178</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11057</IOffset>
+			<IOffset>11179</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11058</IOffset>
+			<IOffset>11180</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11059</IOffset>
+			<IOffset>11181</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11080</IOffset>
+			<IOffset>11202</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11101</IOffset>
+			<IOffset>11223</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11122</IOffset>
+			<IOffset>11244</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16732,154 +17066,154 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11148</IOffset>
+			<IOffset>11270</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11149</IOffset>
+			<IOffset>11271</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11150</IOffset>
+			<IOffset>11272</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11151</IOffset>
+			<IOffset>11273</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11152</IOffset>
+			<IOffset>11274</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11153</IOffset>
+			<IOffset>11275</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11154</IOffset>
+			<IOffset>11276</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11175</IOffset>
+			<IOffset>11297</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11196</IOffset>
+			<IOffset>11318</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11217</IOffset>
+			<IOffset>11339</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_CriticalStartEror</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11238</IOffset>
+			<IOffset>11360</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.InletPump</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11239</IOffset>
+			<IOffset>11361</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11253</IOffset>
+			<IOffset>11375</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSL101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11273</IOffset>
+			<IOffset>11395</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSS101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11305</IOffset>
+			<IOffset>11427</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSH101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11337</IOffset>
+			<IOffset>11459</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSD101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11369</IOffset>
+			<IOffset>11491</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSL100B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11401</IOffset>
+			<IOffset>11523</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSHL100B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11433</IOffset>
+			<IOffset>11555</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bCriticalEQFloatHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11465</IOffset>
+			<IOffset>11587</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bWarningFloatSensorLow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11466</IOffset>
+			<IOffset>11588</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bCriticalFloatSensorDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11467</IOffset>
+			<IOffset>11589</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16921,70 +17255,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11473</IOffset>
+			<IOffset>11595</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11474</IOffset>
+			<IOffset>11596</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11475</IOffset>
+			<IOffset>11597</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11476</IOffset>
+			<IOffset>11598</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11477</IOffset>
+			<IOffset>11599</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11478</IOffset>
+			<IOffset>11600</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11479</IOffset>
+			<IOffset>11601</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11500</IOffset>
+			<IOffset>11622</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11521</IOffset>
+			<IOffset>11643</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11542</IOffset>
+			<IOffset>11664</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17026,77 +17360,77 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11568</IOffset>
+			<IOffset>11690</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11569</IOffset>
+			<IOffset>11691</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11570</IOffset>
+			<IOffset>11692</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11571</IOffset>
+			<IOffset>11693</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11572</IOffset>
+			<IOffset>11694</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11573</IOffset>
+			<IOffset>11695</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11574</IOffset>
+			<IOffset>11696</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11595</IOffset>
+			<IOffset>11717</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11616</IOffset>
+			<IOffset>11738</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11637</IOffset>
+			<IOffset>11759</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_CriticalStartError</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11658</IOffset>
+			<IOffset>11780</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17138,70 +17472,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11664</IOffset>
+			<IOffset>11786</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11665</IOffset>
+			<IOffset>11787</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11666</IOffset>
+			<IOffset>11788</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11667</IOffset>
+			<IOffset>11789</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11668</IOffset>
+			<IOffset>11790</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11669</IOffset>
+			<IOffset>11791</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11670</IOffset>
+			<IOffset>11792</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11691</IOffset>
+			<IOffset>11813</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11712</IOffset>
+			<IOffset>11834</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11733</IOffset>
+			<IOffset>11855</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17243,91 +17577,91 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11759</IOffset>
+			<IOffset>11881</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11760</IOffset>
+			<IOffset>11882</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11761</IOffset>
+			<IOffset>11883</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11762</IOffset>
+			<IOffset>11931</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11763</IOffset>
+			<IOffset>11932</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11764</IOffset>
+			<IOffset>11933</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11765</IOffset>
+			<IOffset>11934</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11786</IOffset>
+			<IOffset>11955</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11807</IOffset>
+			<IOffset>11976</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11828</IOffset>
+			<IOffset>11997</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_CriticalStartEror</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11849</IOffset>
+			<IOffset>12018</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.InletPump</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11850</IOffset>
+			<IOffset>12019</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11864</IOffset>
+			<IOffset>12033</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17648,468 +17982,6 @@
 			<Parent>
 				<Name SubItem="IN">SLUDGE_THICKENING.FilterateSumpLevel_LSH620</Name>
 				<Type Decoration="10044104">inBlock</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyAdditionalStat</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyAdditionalStat">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.remoteAdditionalStat</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="remoteAdditionalStat">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdAdditionalStat</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdAdditionalStat">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyCommand</Name>
-			<Type>BOOL</Type>
-			<IGroup>61489</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyCommand">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.standbyCommand</Name>
-			<Type>BOOL</Type>
-			<IGroup>61489</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyCommand">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdCommand</Name>
-			<Type>BOOL</Type>
-			<IGroup>61489</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdCommand">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyRemoteMode</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyRemoteMode">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyOverload</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyOverload">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyIncomplete</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyIncomplete">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyStart</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyStart">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.standbyRemoteMode</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyRemoteMode">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.standbyOverload</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyOverload">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.standbyIncomplete</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyIncomplete">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.standbyStart</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyStart">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdRemoteMode</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdRemoteMode">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdOverload</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdOverload">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdStart</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdStart">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdIncomplete</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdIncomplete">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.standbyClose</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyClose">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.dutyClose</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyClose">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBackWashWaterPump_P505.thirdClose</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdClose">SLUDGE_THICKENING.fbBackWashWaterPump_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyAdditionalStat</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyAdditionalStat">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.remoteAdditionalStat</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="remoteAdditionalStat">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdAdditionalStat</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdAdditionalStat">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyCommand</Name>
-			<Type>BOOL</Type>
-			<IGroup>61489</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyCommand">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.standbyCommand</Name>
-			<Type>BOOL</Type>
-			<IGroup>61489</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyCommand">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Output" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdCommand</Name>
-			<Type>BOOL</Type>
-			<IGroup>61489</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdCommand">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyRemoteMode</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyRemoteMode">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyOverload</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyOverload">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyIncomplete</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyIncomplete">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyStart</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyStart">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.standbyRemoteMode</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyRemoteMode">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.standbyOverload</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyOverload">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.standbyIncomplete</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyIncomplete">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.standbyStart</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyStart">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdRemoteMode</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdRemoteMode">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdOverload</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdOverload">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdStart</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdStart">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdIncomplete</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdIncomplete">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.standbyClose</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="standbyClose">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.dutyClose</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="dutyClose">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
-			</Parent>
-		</VarConfig>
-		<VarConfig>
-			<Name Static="Input" TaskPrio="1">SLUDGE_THICKENING.fbBlower_P505.thirdClose</Name>
-			<Type>BOOL</Type>
-			<IGroup>61473</IGroup>
-			<IOffset VarConfig="Unknown">0</IOffset>
-			<BitSize>1</BitSize>
-			<Parent>
-				<Name SubItem="thirdClose">SLUDGE_THICKENING.fbBlower_P505</Name>
-				<Type Decoration="106E4A3D">fb_equipment_with_linking</Type>
 			</Parent>
 		</VarConfig>
 		<VarConfig>
