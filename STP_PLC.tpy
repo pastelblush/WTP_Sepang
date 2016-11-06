@@ -2,9 +2,9 @@
 <!--This file is created by the TCatPlcCtrl automatically. Manually changes will be overwritten!-->
 <PlcProjectInfo xmlns:p="http://www.beckhoff.com/2002/01/TcPlcProjectDesc">
 	<ProjectInfo>
-		<Path>C:\Users\Paste\Projects\WTP_Sepang-master\STP_PLC.pro</Path>
+		<Path>C:\Users\Paste\Projects\WTP_Sepang-master\WTP_Sepang\STP_PLC.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2016-11-06T21:47:00</ChangeDate>
+		<ChangeDate>2016-11-06T22:15:21</ChangeDate>
 		<Library>
 			<Name>TcBase.lib</Name>
 			<Path>C:\TwinCAT\PLC\LIB\TcBase.lib</Path>
@@ -15429,7 +15429,7 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="165489D8" Crc32="1269297302" LastChange="2016-11-06T21:47:00">STP</Name>
+			<Name Decoration="165489D8" Crc32="0061533293" LastChange="2016-11-06T22:15:21">STP</Name>
 			<PrgInfo>
 				<CodeIndex>99</CodeIndex>
 				<ActionInfo>
@@ -39462,7 +39462,7 @@
 			</Properties>
 		</Symbol>
 		<Symbol>
-			<Name Static="Input" TaskPrio="1">STP.GENESTOP_Generator_EStop_Stat</Name>
+			<Name Static="Input">STP.GENESTOP_Generator_EStop_Stat</Name>
 			<Type>BOOL</Type>
 			<IGroup>61473</IGroup>
 			<IOffset VarConfig="Changeable">3840</IOffset>
