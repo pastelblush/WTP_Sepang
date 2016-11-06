@@ -2,12 +2,12 @@
 <!--This file is created by the TCatPlcCtrl automatically. Manually changes will be overwritten!-->
 <PlcProjectInfo xmlns:p="http://www.beckhoff.com/2002/01/TcPlcProjectDesc">
 	<ProjectInfo>
-		<Path>C:\Users\Pastelblush\Projects\WTP_Sepang\WTP_Pro_15_8_2016.pro</Path>
+		<Path>C:\Users\Paste\Desktop\WTP_Sepang-master\WTP_Sepang-master\WTP_Pro_15_8_2016.pro</Path>
 		<IsLibrary>false</IsLibrary>
-		<ChangeDate>2016-08-22T17:15:15</ChangeDate>
+		<ChangeDate>2016-10-05T17:38:45</ChangeDate>
 		<Library>
 			<Name>STANDARD.LIB</Name>
-			<Path>C:\TWINCAT\PLC\LIB\STANDARD.LIB</Path>
+			<Path>C:\TwinCAT\PLC\LIB\STANDARD.LIB</Path>
 			<ChangeDate>1998-06-05T12:03:02</ChangeDate>
 		</Library>
 	</ProjectInfo>
@@ -16,17 +16,17 @@
 			<NetId>0.0.0.0.0.0</NetId>
 			<Port>801</Port>
 			<TargetName>
-				<![CDATA[Target: Local (192.168.255.3.1.1), Run Time: 1]]>
+				<![CDATA[Target: Local (192.168.56.1.1.1), Run Time: 1]]>
 			</TargetName>
 		</AdsInfo>
 	</RoutingInfo>
 	<CompilerInfo>
 		<CpuFamily>x86</CpuFamily>
-		<CompilerVersion>2.9.9.47</CompilerVersion>
+		<CompilerVersion>2.9.9.50</CompilerVersion>
 		<Alignment>Byte</Alignment>
 		<PackSize>1</PackSize>
 		<TwinCATVersion>2.11.0</TwinCATVersion>
-		<TCatPlcCtrlVersion>2.11.2230</TCatPlcCtrlVersion>
+		<TCatPlcCtrlVersion>2.11.2605</TCatPlcCtrlVersion>
 	</CompilerInfo>
 	<TargetInfo>
 		<CpuFamily>x86</CpuFamily>
@@ -53,16 +53,16 @@
 	<DirectoryInfos>
 		<DirectoryInfo>
 			<Type>LibraryDir</Type>
-			<Path>C:\TWINCAT\PLC\LIB\</Path>
+			<Path>C:\TwinCAT\PLC\LIB\</Path>
 		</DirectoryInfo>
 		<DirectoryInfo>
 			<Type>CompileDir</Type>
-			<Path>C:\TWINCAT\PLC\</Path>
+			<Path>C:\TwinCAT\PLC\</Path>
 		</DirectoryInfo>
 	</DirectoryInfos>
 	<DataTypes>
 		<DataType>
-			<Name Decoration="10081EA8" Crc32="4258089175" LastChange="2016-08-22T16:49:19">Equipment_Dual</Name>
+			<Name Decoration="10081EA8" Crc32="4258089175" LastChange="2016-10-04T12:36:43">Equipment_Dual</Name>
 			<BitSize>112</BitSize>
 			<SubItem>
 				<Name FbParameter="Input">ERROR1</Name>
@@ -118,16 +118,16 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="100D6133" Crc32="1411394874" LastChange="2016-08-22T12:07:04">Equipment_Dual_Timed</Name>
+			<Name Decoration="100D6133" Crc32="1411394874" LastChange="2016-10-04T12:36:43">Equipment_Dual_Timed</Name>
 			<BitSize>416</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timer1</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timer1</Name>
 				<Type Decoration="10050B9B">TP</Type>
 				<BitSize>112</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timer2</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timer2</Name>
 				<Type Decoration="10050B9B">TP</Type>
 				<BitSize>112</BitSize>
 				<BitOffs>112</BitOffs>
@@ -204,7 +204,7 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10040F4F" Crc32="1411929069" LastChange="2016-08-22T12:07:04">Equipment_Single</Name>
+			<Name Decoration="10040F4F" Crc32="1411929069" LastChange="2016-10-04T12:36:43">Equipment_Single</Name>
 			<BitSize>56</BitSize>
 			<SubItem>
 				<Name FbParameter="Input">ERROR1</Name>
@@ -236,16 +236,16 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10064D52" Crc32="4264447741" LastChange="2016-08-22T12:07:04">Equipment_Timed</Name>
+			<Name Decoration="10064D52" Crc32="4264447741" LastChange="2016-10-04T12:36:43">Equipment_Timed</Name>
 			<BitSize>344</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timer1</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timer1</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timer2</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timer2</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>120</BitOffs>
@@ -280,10 +280,90 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10042507" Crc32="3169741141" LastChange="2016-08-22T12:07:04">ErrorFilter</Name>
+			<Name Decoration="100C2DFD" Crc32="0761276857" LastChange="2016-10-04T12:36:43">Equipment_Triple</Name>
 			<BitSize>168</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timer</Name>
+				<Name FbParameter="Input">ERROR1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>0</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">ERROR2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>8</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">ERROR3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>16</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">remote1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>24</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">remote2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>32</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">remote3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>40</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Command1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>48</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Command2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>56</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">Command3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>64</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="InOut">IN1</Name>
+				<Type Pointer="1">BOOL</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>72</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="InOut">IN2</Name>
+				<Type Pointer="1">BOOL</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>104</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="InOut">IN3</Name>
+				<Type Pointer="1">BOOL</Type>
+				<BitSize>32</BitSize>
+				<BitOffs>136</BitOffs>
+			</SubItem>
+			<FbInfo>
+				<CodeIndex>61</CodeIndex>
+				<InitIndex>62</InitIndex>
+			</FbInfo>
+		</DataType>
+		<DataType>
+			<Name Decoration="10042507" Crc32="3169741141" LastChange="2016-10-04T12:36:43">ErrorFilter</Name>
+			<BitSize>168</BitSize>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timer</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>0</BitOffs>
@@ -307,21 +387,21 @@
 				<BitOffs>160</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>63</CodeIndex>
-				<InitIndex>64</InitIndex>
+				<CodeIndex>65</CodeIndex>
+				<InitIndex>66</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="1008501C" Crc32="0774590851" LastChange="2016-08-22T12:07:04">fb_timer_on_off</Name>
+			<Name Decoration="1008501C" Crc32="0774590851" LastChange="2016-10-04T12:36:43">fb_timer_on_off</Name>
 			<BitSize>336</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ON</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">ON</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">OFF</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">OFF</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>120</BitOffs>
@@ -363,12 +443,12 @@
 				<BitOffs>328</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>79</CodeIndex>
-				<InitIndex>80</InitIndex>
+				<CodeIndex>81</CodeIndex>
+				<InitIndex>82</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10044104" Crc32="2875414433" LastChange="2016-08-22T12:07:04">inBlock</Name>
+			<Name Decoration="10044104" Crc32="2875414433" LastChange="2016-10-04T12:36:43">inBlock</Name>
 			<BitSize>256</BitSize>
 			<SubItem>
 				<Name Location="Input">IN</Name>
@@ -377,13 +457,13 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ON</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">ON</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">OFF</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">OFF</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>128</BitOffs>
@@ -395,12 +475,437 @@
 				<BitOffs>248</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>83</CodeIndex>
-				<InitIndex>84</InitIndex>
+				<CodeIndex>85</CodeIndex>
+				<InitIndex>86</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="102D9419" Crc32="3493574248" LastChange="2016-08-22T12:07:04">SBRReactor</Name>
+			<Name Decoration="103F7490" Crc32="1774025716" LastChange="2016-10-05T12:02:15">INLET_NEW_A</Name>
+			<BitSize>1320</BitSize>
+			<SubItem>
+				<Name>m1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>0</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">ton1</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<Comment>
+					<![CDATA[MIXER]]>
+				</Comment>
+				<BitSize>120</BitSize>
+				<BitOffs>8</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>penstock</Name>
+				<Type>INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>128</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>FailedGroupA</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>144</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>FailedGroupB</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>152</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>m2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>160</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TP1</Name>
+				<Type Decoration="10050B9B">TP</Type>
+				<BitSize>112</BitSize>
+				<BitOffs>168</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>m3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>280</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TON2</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>288</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TON3</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>408</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TOF1</Name>
+				<Type Decoration="10060D24">TOF</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>528</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TON4</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>648</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>mr</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>768</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">F_TRIG1</Name>
+				<Type Decoration="1003051C">F_TRIG</Type>
+				<BitSize>24</BitSize>
+				<BitOffs>776</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">R_TRIG1</Name>
+				<Type Decoration="1003051C">R_TRIG</Type>
+				<BitSize>24</BitSize>
+				<BitOffs>800</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name>m4</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>824</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TON5</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
+				<BitOffs>832</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>952</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>960</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>968</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i4</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[MIXER]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>976</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i5</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>984</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i6</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[penstock]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>992</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">r1</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[rs1]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1000</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i7</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[ps open]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1008</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i8</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[ps open]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1016</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i10</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1024</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i9</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1032</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i11</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1040</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">s1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1048</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">s2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1056</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">s3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1064</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">s4</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[sbr transfer]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1072</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i12</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1080</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i13</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1088</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1096</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q2</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[MIXER]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1104</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1112</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q4</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[penstock]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1120</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q5</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[ps1]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1128</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q6</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[ps2]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1136</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q7</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1144</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q8</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1152</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q10</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1160</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q9</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1168</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q11</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1176</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q12</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1184</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q13</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1192</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q14</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1200</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q15</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1208</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q16</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1216</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q17</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1224</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q18</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1232</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q19</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1240</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q20</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[Grit Removal]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1248</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q21</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1256</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q22</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1264</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q23</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1272</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q24</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1280</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q25</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1288</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q26</Name>
+				<Type>BOOL</Type>
+				<Comment>
+					<![CDATA[sbr transfer]]>
+				</Comment>
+				<BitSize>8</BitSize>
+				<BitOffs>1296</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q27</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1304</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q28</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>1312</BitOffs>
+			</SubItem>
+			<FbInfo>
+				<CodeIndex>87</CodeIndex>
+				<InitIndex>88</InitIndex>
+			</FbInfo>
+		</DataType>
+		<DataType>
+			<Name Decoration="102D9419" Crc32="3493574248" LastChange="2016-10-04T12:36:43">SBRReactor</Name>
 			<BitSize>1152</BitSize>
 			<SubItem>
 				<Name Persistent="1">step</Name>
@@ -439,37 +944,37 @@
 				<BitOffs>48</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">MixerOff</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">MixerOff</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>64</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timerBlower</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timerBlower</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>184</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">DOtimer</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">DOtimer</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>304</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">TimerSettling</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TimerSettling</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>424</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">timerDecant</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">timerDecant</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>544</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">DecantTimeLapse</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">DecantTimeLapse</Name>
 				<Type Decoration="10060D24">TON</Type>
 				<BitSize>120</BitSize>
 				<BitOffs>664</BitOffs>
@@ -673,111 +1178,159 @@
 				<BitOffs>1120</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>101</CodeIndex>
-				<InitIndex>102</InitIndex>
+				<CodeIndex>105</CodeIndex>
+				<InitIndex>106</InitIndex>
 				<ActionInfo>
 					<Name>Aeration</Name>
-					<CodeIndex>103</CodeIndex>
+					<CodeIndex>107</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>Decanting</Name>
-					<CodeIndex>104</CodeIndex>
+					<CodeIndex>108</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>filling</Name>
-					<CodeIndex>105</CodeIndex>
+					<CodeIndex>109</CodeIndex>
 				</ActionInfo>
 				<ActionInfo>
 					<Name>Settle</Name>
-					<CodeIndex>106</CodeIndex>
+					<CodeIndex>110</CodeIndex>
 				</ActionInfo>
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="100C2DFD" Crc32="0761276857" LastChange="2016-08-22T16:49:33">Equipment_Triple</Name>
-			<BitSize>168</BitSize>
+			<Name Decoration="10143F95" Crc32="4101777654" LastChange="2016-10-05T17:38:37">REUSE_WATER</Name>
+			<BitSize>304</BitSize>
 			<SubItem>
-				<Name FbParameter="Input">ERROR1</Name>
+				<Name>m1</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input">ERROR2</Name>
+				<Name>e1</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input">ERROR3</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
+				<Name>p1</Name>
+				<Type>REAL</Type>
+				<BitSize>32</BitSize>
 				<BitOffs>16</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input">remote1</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>24</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">remote2</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>32</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Input">remote3</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
-				<BitOffs>40</BitOffs>
-			</SubItem>
-			<SubItem>
-				<Name FbParameter="Output">Command1</Name>
-				<Type>BOOL</Type>
-				<BitSize>8</BitSize>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TON1</Name>
+				<Type Decoration="10060D24">TON</Type>
+				<BitSize>120</BitSize>
 				<BitOffs>48</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output">Command2</Name>
+				<Name>m2</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
-				<BitOffs>56</BitOffs>
+				<BitOffs>168</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output">Command3</Name>
+				<Name FbParameter="Input">i3</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
-				<BitOffs>64</BitOffs>
+				<BitOffs>176</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="InOut">IN1</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>72</BitOffs>
+				<Name FbParameter="Input">i1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>184</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="InOut">IN2</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>104</BitOffs>
+				<Name FbParameter="Input">i4</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>192</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="InOut">IN3</Name>
-				<Type Pointer="1">BOOL</Type>
-				<BitSize>32</BitSize>
-				<BitOffs>136</BitOffs>
+				<Name FbParameter="Input">i2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>200</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">i5</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>208</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Input">a1</Name>
+				<Type>INT</Type>
+				<BitSize>16</BitSize>
+				<BitOffs>216</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q1</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>232</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q2</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>240</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q3</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>248</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q4</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>256</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q5</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>264</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q6</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>272</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q7</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>280</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q8</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>288</BitOffs>
+			</SubItem>
+			<SubItem>
+				<Name FbParameter="Output">q9</Name>
+				<Type>BOOL</Type>
+				<BitSize>8</BitSize>
+				<BitOffs>296</BitOffs>
 			</SubItem>
 			<FbInfo>
-				<CodeIndex>117</CodeIndex>
-				<InitIndex>118</InitIndex>
+				<CodeIndex>121</CodeIndex>
+				<InitIndex>122</InitIndex>
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10060AFD" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CTD</Name>
+			<Name Decoration="10060AFD" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CTD</Name>
 			<BitSize>64</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">M</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">M</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Variable for CD Edge Detection]]>
@@ -786,7 +1339,7 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CD</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CD</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Count Down on rising edge]]>
@@ -795,7 +1348,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LOAD</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LOAD</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Load Start Value]]>
@@ -804,7 +1357,7 @@
 				<BitOffs>16</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">PV</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">PV</Name>
 				<Type>WORD</Type>
 				<Comment>
 					<![CDATA[Start Value]]>
@@ -813,7 +1366,7 @@
 				<BitOffs>24</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Counter reached 0]]>
@@ -822,7 +1375,7 @@
 				<BitOffs>40</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CV</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CV</Name>
 				<Type>WORD</Type>
 				<Comment>
 					<![CDATA[Current Counter Value]]>
@@ -836,10 +1389,10 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10060B75" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CTU</Name>
+			<Name Decoration="10060B75" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CTU</Name>
 			<BitSize>64</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">M</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">M</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Variable for CU Edge Detection]]>
@@ -848,7 +1401,7 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CU</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CU</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Count Up]]>
@@ -857,7 +1410,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RESET</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RESET</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Reset Counter to 0]]>
@@ -866,7 +1419,7 @@
 				<BitOffs>16</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">PV</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">PV</Name>
 				<Type>WORD</Type>
 				<Comment>
 					<![CDATA[Counter Limit]]>
@@ -875,7 +1428,7 @@
 				<BitOffs>24</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Counter reached the Limit]]>
@@ -884,7 +1437,7 @@
 				<BitOffs>40</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CV</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CV</Name>
 				<Type>WORD</Type>
 				<Comment>
 					<![CDATA[Current Counter Value]]>
@@ -898,10 +1451,10 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="100A13D0" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CTUD</Name>
+			<Name Decoration="100A13D0" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CTUD</Name>
 			<BitSize>96</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">MU</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">MU</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Variable for CU Edge Detection]]>
@@ -910,7 +1463,7 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">MD</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">MD</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Variable for CD Edge Detection]]>
@@ -919,7 +1472,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CU</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CU</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Count Up]]>
@@ -928,7 +1481,7 @@
 				<BitOffs>16</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CD</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CD</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Count Down]]>
@@ -937,7 +1490,7 @@
 				<BitOffs>24</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RESET</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RESET</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Reset Counter to Null]]>
@@ -946,7 +1499,7 @@
 				<BitOffs>32</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LOAD</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LOAD</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Load Start Value]]>
@@ -955,7 +1508,7 @@
 				<BitOffs>40</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">PV</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">PV</Name>
 				<Type>WORD</Type>
 				<Comment>
 					<![CDATA[Start Value / Counter Limit]]>
@@ -964,7 +1517,7 @@
 				<BitOffs>48</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">QU</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">QU</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Counter reached Limit]]>
@@ -973,7 +1526,7 @@
 				<BitOffs>64</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">QD</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">QD</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Counter reached Null]]>
@@ -982,7 +1535,7 @@
 				<BitOffs>72</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CV</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CV</Name>
 				<Type>WORD</Type>
 				<Comment>
 					<![CDATA[Current Counter Value]]>
@@ -996,16 +1549,16 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="1003051C" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">F_TRIG</Name>
+			<Name Decoration="1003051C" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">F_TRIG</Name>
 			<BitSize>24</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">M</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">M</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CLK</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CLK</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Signal to detect]]>
@@ -1014,7 +1567,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Edge detected]]>
@@ -1028,16 +1581,16 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="1003051C" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">R_TRIG</Name>
+			<Name Decoration="1003051C" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">R_TRIG</Name>
 			<BitSize>24</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">M</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">M</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CLK</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CLK</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Signal to detect]]>
@@ -1046,7 +1599,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Edge detected]]>
@@ -1060,22 +1613,22 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="100306C8" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RS</Name>
+			<Name Decoration="100306C8" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RS</Name>
 			<BitSize>24</BitSize>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SET</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">SET</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RESET1</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RESET1</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q1</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q1</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>16</BitOffs>
@@ -1086,28 +1639,28 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="100409DC" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SEMA</Name>
+			<Name Decoration="100409DC" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">SEMA</Name>
 			<BitSize>32</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">X</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">X</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CLAIM</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CLAIM</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RELEASE</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RELEASE</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>16</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">BUSY</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">BUSY</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>24</BitOffs>
@@ -1118,22 +1671,22 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="100306C6" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SR</Name>
+			<Name Decoration="100306C6" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">SR</Name>
 			<BitSize>24</BitSize>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SET1</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">SET1</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RESET</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RESET</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q1</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q1</Name>
 				<Type>BOOL</Type>
 				<BitSize>8</BitSize>
 				<BitOffs>16</BitOffs>
@@ -1144,10 +1697,10 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10060D24" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">TOF</Name>
+			<Name Decoration="10060D24" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TOF</Name>
 			<BitSize>120</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">M</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">M</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[internal variable]]>
@@ -1156,7 +1709,7 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">StartTime</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">StartTime</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[internal variable]]>
@@ -1165,7 +1718,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">IN</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">IN</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[starts timer with falling edge, resets timer with rising edge]]>
@@ -1174,7 +1727,7 @@
 				<BitOffs>40</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">PT</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">PT</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[time to pass, before Q is set]]>
@@ -1183,7 +1736,7 @@
 				<BitOffs>48</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[is FALSE, PT seconds after IN had a falling edge]]>
@@ -1192,7 +1745,7 @@
 				<BitOffs>80</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ET</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">ET</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[elapsed time]]>
@@ -1206,10 +1759,10 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10060D24" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">TON</Name>
+			<Name Decoration="10060D24" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TON</Name>
 			<BitSize>120</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">M</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">M</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[internal variable]]>
@@ -1218,7 +1771,7 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">StartTime</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">StartTime</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[internal variable]]>
@@ -1227,7 +1780,7 @@
 				<BitOffs>8</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">IN</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">IN</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[starts timer with rising edge, resets timer with falling edge]]>
@@ -1236,7 +1789,7 @@
 				<BitOffs>40</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">PT</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">PT</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[time to pass, before Q is set]]>
@@ -1245,7 +1798,7 @@
 				<BitOffs>48</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[is TRUE, PT seconds after IN had a rising edge]]>
@@ -1254,7 +1807,7 @@
 				<BitOffs>80</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ET</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">ET</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[elapsed time]]>
@@ -1268,10 +1821,10 @@
 			</FbInfo>
 		</DataType>
 		<DataType>
-			<Name Decoration="10050B9B" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">TP</Name>
+			<Name Decoration="10050B9B" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">TP</Name>
 			<BitSize>112</BitSize>
 			<SubItem>
-				<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">StartTime</Name>
+				<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">StartTime</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[internal variable]]>
@@ -1280,7 +1833,7 @@
 				<BitOffs>0</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">IN</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">IN</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[Trigger for Start of the Signal]]>
@@ -1289,7 +1842,7 @@
 				<BitOffs>32</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">PT</Name>
+				<Name FbParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">PT</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[The length of the High-Signal in 10ms]]>
@@ -1298,7 +1851,7 @@
 				<BitOffs>40</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">Q</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">Q</Name>
 				<Type>BOOL</Type>
 				<Comment>
 					<![CDATA[The pulse]]>
@@ -1307,7 +1860,7 @@
 				<BitOffs>72</BitOffs>
 			</SubItem>
 			<SubItem>
-				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">ET</Name>
+				<Name FbParameter="Output" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">ET</Name>
 				<Type>TIME</Type>
 				<Comment>
 					<![CDATA[The current phase of the High-Signal]]>
@@ -1323,7 +1876,7 @@
 	</DataTypes>
 	<Functions>
 		<Function>
-			<Name Decoration="10010388" Crc32="3386154581" LastChange="2016-08-22T12:07:04">Activate</Name>
+			<Name Decoration="10010388" Crc32="3386154581" LastChange="2016-10-04T12:36:43">Activate</Name>
 			<FunInfo>
 				<CodeIndex>49</CodeIndex>
 				<ReturnValue>
@@ -1334,7 +1887,7 @@
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10010411" Crc32="1422320927" LastChange="2016-08-22T12:07:04">Deactivate</Name>
+			<Name Decoration="10010411" Crc32="1422320927" LastChange="2016-10-04T12:36:43">Deactivate</Name>
 			<FunInfo>
 				<CodeIndex>52</CodeIndex>
 				<ReturnValue>
@@ -1345,9 +1898,9 @@
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10040B31" Crc32="2953252593" LastChange="2016-08-22T12:07:04">RangeBlock</Name>
+			<Name Decoration="10040B31" Crc32="2953252593" LastChange="2016-10-04T12:36:43">RangeBlock</Name>
 			<FunInfo>
-				<CodeIndex>90</CodeIndex>
+				<CodeIndex>94</CodeIndex>
 				<ReturnValue>
 					<Name>RangeBlock</Name>
 					<Type>BOOL</Type>
@@ -1371,209 +1924,209 @@
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="1003CF58" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CONCAT</Name>
+			<Name Decoration="1003CF58" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CONCAT</Name>
 			<FunInfo>
 				<CodeIndex>17</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">CONCAT</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">CONCAT</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10048DE1" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">DELETE</Name>
+			<Name Decoration="10048DE1" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">DELETE</Name>
 			<FunInfo>
 				<CodeIndex>24</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">DELETE</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">DELETE</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">POS</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">POS</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10038BEA" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">FIND</Name>
+			<Name Decoration="10038BEA" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">FIND</Name>
 			<FunInfo>
 				<CodeIndex>27</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">FIND</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">FIND</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="1004D151" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">INSERT</Name>
+			<Name Decoration="1004D151" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">INSERT</Name>
 			<FunInfo>
 				<CodeIndex>28</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">INSERT</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">INSERT</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">POS</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">POS</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10038BD5" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LEFT</Name>
+			<Name Decoration="10038BD5" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LEFT</Name>
 			<FunInfo>
 				<CodeIndex>29</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LEFT</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LEFT</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SIZE</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">SIZE</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10024688" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
+			<Name Decoration="10024688" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
 			<FunInfo>
 				<CodeIndex>30</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10048D08" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">MID</Name>
+			<Name Decoration="10048D08" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">MID</Name>
 			<FunInfo>
 				<CodeIndex>31</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">MID</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">MID</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">LEN</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">POS</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">POS</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="1005D217" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">REPLACE</Name>
+			<Name Decoration="1005D217" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">REPLACE</Name>
 			<FunInfo>
 				<CodeIndex>34</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">REPLACE</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">REPLACE</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR1</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR2</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">L</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">L</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">P</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">P</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
 			</FunInfo>
 		</Function>
 		<Function>
-			<Name Decoration="10038C28" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RIGHT</Name>
+			<Name Decoration="10038C28" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RIGHT</Name>
 			<FunInfo>
 				<CodeIndex>35</CodeIndex>
 				<ReturnValue>
-					<Name IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">RIGHT</Name>
+					<Name IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">RIGHT</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</ReturnValue>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">STR</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">STR</Name>
 					<Type Decoration="40000100">STRING(255)</Type>
 					<BitSize>2048</BitSize>
 				</FunParameter>
 				<FunParameter>
-					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TWINCAT\PLC\LIB\STANDARD.LIB">SIZE</Name>
+					<Name FunParameter="Input" IsDefinedInLibrary="1" Library="C:\TwinCAT\PLC\LIB\STANDARD.LIB">SIZE</Name>
 					<Type>INT</Type>
 					<BitSize>16</BitSize>
 				</FunParameter>
@@ -1582,12 +2135,12 @@
 	</Functions>
 	<Programs>
 		<Program>
-			<Name Decoration="10737113" Crc32="1856520227" LastChange="2016-08-22T12:07:04">GRIT_REMOVAL_OPERATION</Name>
+			<Name Decoration="10737113" Crc32="1856520227" LastChange="2016-10-04T12:36:43">GRIT_REMOVAL_OPERATION</Name>
 			<PrgInfo>
-				<CodeIndex>81</CodeIndex>
+				<CodeIndex>83</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>82</CodeIndex>
+					<CodeIndex>84</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>GRIT_REMOVAL_OPERATION.bGritClasifierOperation</Name>
@@ -1937,12 +2490,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="1085392D" Crc32="0123276293" LastChange="2016-08-22T12:07:04">INLET_SCREENING_OPERATION_1</Name>
+			<Name Decoration="1085392D" Crc32="0123276293" LastChange="2016-10-04T12:36:43">INLET_SCREENING_OPERATION_1</Name>
 			<PrgInfo>
-				<CodeIndex>85</CodeIndex>
+				<CodeIndex>89</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>86</CodeIndex>
+					<CodeIndex>90</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>INLET_SCREENING_OPERATION_1.LSH105A</Name>
@@ -2346,12 +2899,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="10853D29" Crc32="4268803481" LastChange="2016-08-22T12:07:04">INLET_SCREENING_OPERATION_2</Name>
+			<Name Decoration="10853D29" Crc32="4268803481" LastChange="2016-10-04T12:36:43">INLET_SCREENING_OPERATION_2</Name>
 			<PrgInfo>
-				<CodeIndex>87</CodeIndex>
+				<CodeIndex>91</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>88</CodeIndex>
+					<CodeIndex>92</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>INLET_SCREENING_OPERATION_2.LSH105B</Name>
@@ -2755,18 +3308,24 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="10000000" Crc32="0900992405" LastChange="2016-08-22T12:07:04">MAIN</Name>
+			<Name Decoration="1002E31F" Crc32="2595550875" LastChange="2016-10-05T12:21:25">MAIN</Name>
 			<PrgInfo>
-				<CodeIndex>89</CodeIndex>
+				<CodeIndex>93</CodeIndex>
+				<Symbol>
+					<Name>MAIN.fbINLET_NEW_A</Name>
+				</Symbol>
+				<Symbol>
+					<Name>MAIN.fbREUSE_WATER</Name>
+				</Symbol>
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="10C6361D" Crc32="0150998216" LastChange="2016-08-22T12:07:04">REUSE_WATER_SYSTEM</Name>
+			<Name Decoration="10C6361D" Crc32="0150998216" LastChange="2016-10-04T12:36:43">REUSE_WATER_SYSTEM</Name>
 			<PrgInfo>
-				<CodeIndex>91</CodeIndex>
+				<CodeIndex>95</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>92</CodeIndex>
+					<CodeIndex>96</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>REUSE_WATER_SYSTEM.LSH405</Name>
@@ -3365,12 +3924,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="113461D5" Crc32="0708597045" LastChange="2016-08-22T12:07:04">SBR_REACTOR_1</Name>
+			<Name Decoration="113461D5" Crc32="0708597045" LastChange="2016-10-04T12:36:43">SBR_REACTOR_1</Name>
 			<PrgInfo>
-				<CodeIndex>93</CodeIndex>
+				<CodeIndex>97</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>94</CodeIndex>
+					<CodeIndex>98</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_REACTOR_1.bDeSludge</Name>
@@ -4299,12 +4858,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="11345F3E" Crc32="2825159724" LastChange="2016-08-22T12:07:04">SBR_REACTOR_2</Name>
+			<Name Decoration="11345F3E" Crc32="2825159724" LastChange="2016-10-04T12:36:43">SBR_REACTOR_2</Name>
 			<PrgInfo>
-				<CodeIndex>95</CodeIndex>
+				<CodeIndex>99</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>96</CodeIndex>
+					<CodeIndex>100</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_REACTOR_2.bDeSludge</Name>
@@ -5233,12 +5792,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="1030E99E" Crc32="1470935013" LastChange="2016-08-22T12:07:04">SBR_TRANSFER_1</Name>
+			<Name Decoration="1030E99E" Crc32="1470935013" LastChange="2016-10-04T12:36:43">SBR_TRANSFER_1</Name>
 			<PrgInfo>
-				<CodeIndex>97</CodeIndex>
+				<CodeIndex>101</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>98</CodeIndex>
+					<CodeIndex>102</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_TRANSFER_1.LSL103A</Name>
@@ -5387,12 +5946,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="1030E9A8" Crc32="0331606641" LastChange="2016-08-22T12:07:04">SBR_TRANSFER_2</Name>
+			<Name Decoration="1030E9A8" Crc32="0331606641" LastChange="2016-10-04T12:36:43">SBR_TRANSFER_2</Name>
 			<PrgInfo>
-				<CodeIndex>99</CodeIndex>
+				<CodeIndex>103</CodeIndex>
 				<ActionInfo>
 					<Name>Input</Name>
-					<CodeIndex>100</CodeIndex>
+					<CodeIndex>104</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SBR_TRANSFER_2.LSL103B</Name>
@@ -5541,12 +6100,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="10EB68AD" Crc32="2183654223" LastChange="2016-08-22T17:15:15">SLUDGE_THICKENING</Name>
+			<Name Decoration="10EB68AD" Crc32="2183654223" LastChange="2016-10-04T12:36:43">SLUDGE_THICKENING</Name>
 			<PrgInfo>
-				<CodeIndex>107</CodeIndex>
+				<CodeIndex>111</CodeIndex>
 				<ActionInfo>
 					<Name>input</Name>
-					<CodeIndex>108</CodeIndex>
+					<CodeIndex>112</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>SLUDGE_THICKENING.SludgeTankLevel_LSH501A</Name>
@@ -6256,12 +6815,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="104F28B2" Crc32="3466099561" LastChange="2016-08-22T12:07:04">STREAM_INLET_MIXER_1</Name>
+			<Name Decoration="104F28B2" Crc32="3466099561" LastChange="2016-10-04T12:36:43">STREAM_INLET_MIXER_1</Name>
 			<PrgInfo>
-				<CodeIndex>109</CodeIndex>
+				<CodeIndex>113</CodeIndex>
 				<ActionInfo>
 					<Name>inputs</Name>
-					<CodeIndex>110</CodeIndex>
+					<CodeIndex>114</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>STREAM_INLET_MIXER_1.LSL101A</Name>
@@ -6503,12 +7062,12 @@
 			</PrgInfo>
 		</Program>
 		<Program>
-			<Name Decoration="104F29F0" Crc32="1752614274" LastChange="2016-08-22T12:07:04">STREAM_INLET_MIXER_2</Name>
+			<Name Decoration="104F29F0" Crc32="1752614274" LastChange="2016-10-04T12:36:43">STREAM_INLET_MIXER_2</Name>
 			<PrgInfo>
-				<CodeIndex>111</CodeIndex>
+				<CodeIndex>115</CodeIndex>
 				<ActionInfo>
 					<Name>inputs</Name>
-					<CodeIndex>112</CodeIndex>
+					<CodeIndex>116</CodeIndex>
 				</ActionInfo>
 				<Symbol>
 					<Name>STREAM_INLET_MIXER_2.LSL101B</Name>
@@ -9130,6 +9689,20 @@
 			<IGroup>16448</IGroup>
 			<IOffset>2477</IOffset>
 			<BitSize>120</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.fbINLET_NEW_A</Name>
+			<Type Decoration="103F7490">INLET_NEW_A</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>11571</IOffset>
+			<BitSize>1320</BitSize>
+		</Symbol>
+		<Symbol>
+			<Name TaskPrio="1">MAIN.fbREUSE_WATER</Name>
+			<Type Decoration="10143F95">REUSE_WATER</Type>
+			<IGroup>16448</IGroup>
+			<IOffset>11736</IOffset>
+			<BitSize>304</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">REUSE_WATER_SYSTEM.LSH405</Name>
@@ -16646,63 +17219,63 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSL101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10784</IOffset>
+			<IOffset>10302</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSS101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10816</IOffset>
+			<IOffset>10334</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSH101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10848</IOffset>
+			<IOffset>10366</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSD101A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10880</IOffset>
+			<IOffset>10398</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSL100A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10912</IOffset>
+			<IOffset>10430</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.LSHL100A</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10944</IOffset>
+			<IOffset>10462</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bCriticalEQFloatHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10976</IOffset>
+			<IOffset>10494</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bWarningFloatSensorLow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10977</IOffset>
+			<IOffset>10495</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.bCriticalFloatSensorDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10978</IOffset>
+			<IOffset>10496</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16744,70 +17317,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10984</IOffset>
+			<IOffset>10502</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10985</IOffset>
+			<IOffset>10503</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10986</IOffset>
+			<IOffset>10504</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10987</IOffset>
+			<IOffset>10505</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10988</IOffset>
+			<IOffset>10506</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10989</IOffset>
+			<IOffset>10507</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>10990</IOffset>
+			<IOffset>10508</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11011</IOffset>
+			<IOffset>10529</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11032</IOffset>
+			<IOffset>10550</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11053</IOffset>
+			<IOffset>10571</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16849,77 +17422,77 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11079</IOffset>
+			<IOffset>10597</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11080</IOffset>
+			<IOffset>10598</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11081</IOffset>
+			<IOffset>10599</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11082</IOffset>
+			<IOffset>10600</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11083</IOffset>
+			<IOffset>10601</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11084</IOffset>
+			<IOffset>10602</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11085</IOffset>
+			<IOffset>10603</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11106</IOffset>
+			<IOffset>10624</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11127</IOffset>
+			<IOffset>10645</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11148</IOffset>
+			<IOffset>10666</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.EQPump_P101A_CriticalStartError</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11169</IOffset>
+			<IOffset>10687</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -16961,70 +17534,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11175</IOffset>
+			<IOffset>10693</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11176</IOffset>
+			<IOffset>10694</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11177</IOffset>
+			<IOffset>10695</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11178</IOffset>
+			<IOffset>10696</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11179</IOffset>
+			<IOffset>10697</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11180</IOffset>
+			<IOffset>10698</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11181</IOffset>
+			<IOffset>10699</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11202</IOffset>
+			<IOffset>10720</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11223</IOffset>
+			<IOffset>10741</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11244</IOffset>
+			<IOffset>10762</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17066,154 +17639,154 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11270</IOffset>
+			<IOffset>10788</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11271</IOffset>
+			<IOffset>10789</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11272</IOffset>
+			<IOffset>10790</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11273</IOffset>
+			<IOffset>10791</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11274</IOffset>
+			<IOffset>10792</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11275</IOffset>
+			<IOffset>10793</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11276</IOffset>
+			<IOffset>10794</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11297</IOffset>
+			<IOffset>10815</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11318</IOffset>
+			<IOffset>10836</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11339</IOffset>
+			<IOffset>10857</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer_M101A_CriticalStartEror</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11360</IOffset>
+			<IOffset>10878</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.InletPump</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11361</IOffset>
+			<IOffset>10879</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_1.Mixer</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11375</IOffset>
+			<IOffset>10893</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSL101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11395</IOffset>
+			<IOffset>10913</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSS101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11427</IOffset>
+			<IOffset>10945</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSH101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11459</IOffset>
+			<IOffset>10977</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSD101B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11491</IOffset>
+			<IOffset>11009</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSL100B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11523</IOffset>
+			<IOffset>11041</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.LSHL100B</Name>
 			<Type Decoration="10044104">inBlock</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11555</IOffset>
+			<IOffset>11073</IOffset>
 			<BitSize>256</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bCriticalEQFloatHi</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11587</IOffset>
+			<IOffset>11105</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bWarningFloatSensorLow</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11588</IOffset>
+			<IOffset>11106</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.bCriticalFloatSensorDry</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11589</IOffset>
+			<IOffset>11107</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17255,70 +17828,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11595</IOffset>
+			<IOffset>11113</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11596</IOffset>
+			<IOffset>11114</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11597</IOffset>
+			<IOffset>11115</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11598</IOffset>
+			<IOffset>11116</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11599</IOffset>
+			<IOffset>11117</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11600</IOffset>
+			<IOffset>11118</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11601</IOffset>
+			<IOffset>11119</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11622</IOffset>
+			<IOffset>11140</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11643</IOffset>
+			<IOffset>11161</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11664</IOffset>
+			<IOffset>11182</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17360,77 +17933,77 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11690</IOffset>
+			<IOffset>11208</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11691</IOffset>
+			<IOffset>11209</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11692</IOffset>
+			<IOffset>11210</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11693</IOffset>
+			<IOffset>11211</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11694</IOffset>
+			<IOffset>11212</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11695</IOffset>
+			<IOffset>11213</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11696</IOffset>
+			<IOffset>11214</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11717</IOffset>
+			<IOffset>11235</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11738</IOffset>
+			<IOffset>11256</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11759</IOffset>
+			<IOffset>11277</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.EQPump_P101B_CriticalStartError</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11780</IOffset>
+			<IOffset>11298</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17472,70 +18045,70 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11786</IOffset>
+			<IOffset>11304</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11787</IOffset>
+			<IOffset>11305</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11788</IOffset>
+			<IOffset>11306</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11789</IOffset>
+			<IOffset>11307</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11790</IOffset>
+			<IOffset>11308</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11791</IOffset>
+			<IOffset>11309</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11792</IOffset>
+			<IOffset>11310</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11813</IOffset>
+			<IOffset>11331</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11834</IOffset>
+			<IOffset>11352</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_1_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11855</IOffset>
+			<IOffset>11373</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
@@ -17577,112 +18150,112 @@
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_in</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11881</IOffset>
+			<IOffset>11399</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_overload_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11882</IOffset>
+			<IOffset>11400</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_incomplete_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11883</IOffset>
+			<IOffset>11401</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_status_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11931</IOffset>
+			<IOffset>11402</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_common_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11932</IOffset>
+			<IOffset>11403</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_stop_error</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11933</IOffset>
+			<IOffset>11404</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_overload_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11934</IOffset>
+			<IOffset>11405</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_incomplete_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11955</IOffset>
+			<IOffset>11426</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_status_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11976</IOffset>
+			<IOffset>11447</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_2_stop_Filter</Name>
 			<Type Decoration="10042507">ErrorFilter</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11997</IOffset>
+			<IOffset>11468</IOffset>
 			<BitSize>168</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer_M101B_CriticalStartEror</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12018</IOffset>
+			<IOffset>11489</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.InletPump</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12019</IOffset>
+			<IOffset>11490</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">STREAM_INLET_MIXER_2.Mixer</Name>
 			<Type Decoration="10081EA8">Equipment_Dual</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>12033</IOffset>
+			<IOffset>11504</IOffset>
 			<BitSize>112</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name>.dummy</Name>
 			<Type>BOOL</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11922</IOffset>
+			<IOffset>11562</IOffset>
 			<BitSize>8</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">.GlobalON</Name>
 			<Type>TIME</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11923</IOffset>
+			<IOffset>11563</IOffset>
 			<BitSize>32</BitSize>
 		</Symbol>
 		<Symbol>
 			<Name TaskPrio="1">.GlobalOFF</Name>
 			<Type>TIME</Type>
 			<IGroup>16448</IGroup>
-			<IOffset>11927</IOffset>
+			<IOffset>11567</IOffset>
 			<BitSize>32</BitSize>
 		</Symbol>
 	</Symbols>
